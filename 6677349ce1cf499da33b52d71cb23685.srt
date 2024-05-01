@@ -1,0 +1,313 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:03.008
+- Imagine a computer that didn't need to be programmed.
+
+2
+00:00:03.008 --> 00:00:06.001
+The system could learn the same way you do just
+
+3
+00:00:06.001 --> 00:00:08.002
+by observing the world.
+
+4
+00:00:08.002 --> 00:00:10.004
+You've seen that earlier AI systems
+
+5
+00:00:10.004 --> 00:00:12.003
+used a symbolic approach.
+
+6
+00:00:12.003 --> 00:00:15.007
+The idea was that if the system recognized symbols
+
+7
+00:00:15.007 --> 00:00:18.005
+then it would start to seem intelligent.
+
+8
+00:00:18.005 --> 00:00:19.007
+One of the key challenges was
+
+9
+00:00:19.007 --> 00:00:23.005
+that programmers worked with experts to create the system.
+
+10
+00:00:23.005 --> 00:00:26.000
+That's why they were called expert systems.
+
+11
+00:00:26.000 --> 00:00:28.001
+Later, computer scientists gave up
+
+12
+00:00:28.001 --> 00:00:31.002
+on this approach because it created too many combinations.
+
+13
+00:00:31.002 --> 00:00:32.002
+They decided
+
+14
+00:00:32.002 --> 00:00:35.009
+that you couldn't just program intelligence into a system
+
+15
+00:00:35.009 --> 00:00:39.003
+but maybe you could program a system to become intelligent
+
+16
+00:00:39.003 --> 00:00:41.003
+through observation.
+
+17
+00:00:41.003 --> 00:00:44.009
+It wouldn't feel, hear or see or taste like a human.
+
+18
+00:00:44.009 --> 00:00:48.005
+Instead, it would learn by sensing data.
+
+19
+00:00:48.005 --> 00:00:52.000
+In 1959, a computer scientist named Arthur Samuel
+
+20
+00:00:52.000 --> 00:00:54.002
+created a checkers program that could learn
+
+21
+00:00:54.002 --> 00:00:56.002
+by playing against itself.
+
+22
+00:00:56.002 --> 00:00:57.003
+It played both sides
+
+23
+00:00:57.003 --> 00:01:01.002
+of the board and taught itself strategy through observation.
+
+24
+00:01:01.002 --> 00:01:02.005
+The more the machine played
+
+25
+00:01:02.005 --> 00:01:05.003
+the more it saw patterns on how to win.
+
+26
+00:01:05.003 --> 00:01:07.006
+Computer scientists didn't program the machine
+
+27
+00:01:07.006 --> 00:01:08.009
+to play checkers.
+
+28
+00:01:08.009 --> 00:01:11.007
+It learned through its own experience.
+
+29
+00:01:11.007 --> 00:01:15.001
+Arthur Samuel's called this idea machine learning.
+
+30
+00:01:15.001 --> 00:01:17.004
+This was different from symbolic systems.
+
+31
+00:01:17.004 --> 00:01:20.005
+No human program the moves and counter moves.
+
+32
+00:01:20.005 --> 00:01:22.006
+Instead, the system was designed to learn
+
+33
+00:01:22.006 --> 00:01:24.004
+and improve on its own.
+
+34
+00:01:24.004 --> 00:01:27.001
+The system would quickly learn new checker strategies
+
+35
+00:01:27.001 --> 00:01:28.006
+and after a short period of time
+
+36
+00:01:28.006 --> 00:01:31.005
+it consistently beat its programmer.
+
+37
+00:01:31.005 --> 00:01:34.004
+Machine learning was a breakthrough discovery.
+
+38
+00:01:34.004 --> 00:01:36.003
+There was only one downside.
+
+39
+00:01:36.003 --> 00:01:39.002
+These systems could play games, but in the 1950s
+
+40
+00:01:39.002 --> 00:01:42.003
+there wasn't that much digital data.
+
+41
+00:01:42.003 --> 00:01:46.001
+Remember that machine learning uses data as its five senses.
+
+42
+00:01:46.001 --> 00:01:50.003
+So without data, it could only find the simplest patterns
+
+43
+00:01:50.003 --> 00:01:51.004
+but that all changed.
+
+44
+00:01:51.004 --> 00:01:54.001
+At the beginning of the 1990s, the explosion
+
+45
+00:01:54.001 --> 00:01:56.003
+of the internet suddenly had everyday people
+
+46
+00:01:56.003 --> 00:01:58.006
+creating huge amounts of data.
+
+47
+00:01:58.006 --> 00:02:00.001
+The 1990s was a time
+
+48
+00:02:00.001 --> 00:02:03.006
+of explosive growth for machine learning systems.
+
+49
+00:02:03.006 --> 00:02:05.005
+The new data was like water that poured
+
+50
+00:02:05.005 --> 00:02:09.009
+over the dry fields of artificial intelligence.
+
+51
+00:02:09.009 --> 00:02:11.006
+At this point, machine learning systems had
+
+52
+00:02:11.006 --> 00:02:14.009
+the fuel they needed to become more intelligent.
+
+53
+00:02:14.009 --> 00:02:16.007
+So if you wanted to teach the system on how to
+
+54
+00:02:16.007 --> 00:02:20.001
+identify a cat, you had access to millions
+
+55
+00:02:20.001 --> 00:02:22.003
+of cat pictures online.
+
+56
+00:02:22.003 --> 00:02:23.006
+Computer scientists began to
+
+57
+00:02:23.006 --> 00:02:26.003
+create newer machine learning algorithms.
+
+58
+00:02:26.003 --> 00:02:28.004
+There were even some researchers that started to
+
+59
+00:02:28.004 --> 00:02:32.004
+create systems that were designed to mimic the human brain.
+
+60
+00:02:32.004 --> 00:02:35.001
+One of the big advantages of learning through data is
+
+61
+00:02:35.001 --> 00:02:38.006
+that machines could continue to grow with more data.
+
+62
+00:02:38.006 --> 00:02:40.005
+If the machine finds new patterns
+
+63
+00:02:40.005 --> 00:02:43.003
+it can adapt to the new information.
+
+64
+00:02:43.003 --> 00:02:44.006
+But it's important to keep in mind
+
+65
+00:02:44.006 --> 00:02:47.004
+that you still run into some of the same challenges.
+
+66
+00:02:47.004 --> 00:02:49.001
+The machine learning system is still just
+
+67
+00:02:49.001 --> 00:02:51.005
+identifying patterns.
+
+68
+00:02:51.005 --> 00:02:53.004
+Still, in the last few years
+
+69
+00:02:53.004 --> 00:02:56.008
+machine learning has been the fastest growing area in AI.
+
+70
+00:02:56.008 --> 00:02:58.009
+As the amount of data increases
+
+71
+00:02:58.009 --> 00:03:02.004
+This area has even shown more promise.
+
+72
+00:03:02.004 --> 00:03:05.008
+Organizations are constantly collecting vast amounts
+
+73
+00:03:05.008 --> 00:03:06.009
+of new data.
+
+74
+00:03:06.009 --> 00:03:09.005
+So now the big challenge has become figuring out
+
+75
+00:03:09.005 --> 00:03:12.000
+what to do with all this information.
+
+76
+00:03:12.000 --> 00:03:14.009
+In a sense, you have artificial intelligence systems looking
+
+77
+00:03:14.009 --> 00:03:16.005
+through your data
+
+78
+00:03:16.005 --> 00:03:19.005
+and letting your organization see what it finds.

@@ -1,0 +1,313 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:01.009
+- Machine learning is one
+
+2
+00:00:01.009 --> 00:00:04.009
+of the most popular areas in artificial intelligence.
+
+3
+00:00:04.009 --> 00:00:07.003
+That's partly because of the explosion of data
+
+4
+00:00:07.003 --> 00:00:09.004
+but it's also because of huge advances
+
+5
+00:00:09.004 --> 00:00:12.000
+in machine learning algorithms.
+
+6
+00:00:12.000 --> 00:00:15.002
+Machine learning on its own is just a set of techniques.
+
+7
+00:00:15.002 --> 00:00:18.006
+It's a way to build systems that learn through data.
+
+8
+00:00:18.006 --> 00:00:21.007
+They move beyond the early AI systems that needed
+
+9
+00:00:21.007 --> 00:00:24.001
+to be explicitly programmed.
+
+10
+00:00:24.001 --> 00:00:27.002
+But there isn't one big machine learning program
+
+11
+00:00:27.002 --> 00:00:29.003
+like Microsoft Office.
+
+12
+00:00:29.003 --> 00:00:30.007
+Instead, you have many different
+
+13
+00:00:30.007 --> 00:00:32.009
+machine learning algorithms.
+
+14
+00:00:32.009 --> 00:00:36.005
+Most of these algorithms are borrowed from statistics.
+
+15
+00:00:36.005 --> 00:00:38.001
+The key thing to remember is that each
+
+16
+00:00:38.001 --> 00:00:41.007
+of these algorithms are like a chef's kitchen tool.
+
+17
+00:00:41.007 --> 00:00:43.001
+Spoons are used for stirring
+
+18
+00:00:43.001 --> 00:00:45.004
+and knives are used for cutting, but sometimes,
+
+19
+00:00:45.004 --> 00:00:48.005
+chefs can find new creative uses for that tool.
+
+20
+00:00:48.005 --> 00:00:49.008
+Some chefs use the side
+
+21
+00:00:49.008 --> 00:00:51.008
+of their knife to crush a garlic clove
+
+22
+00:00:51.008 --> 00:00:54.009
+or use a spoon to twirl spaghetti.
+
+23
+00:00:54.009 --> 00:00:55.009
+I once worked for a company
+
+24
+00:00:55.009 --> 00:00:58.000
+that was using credit card data to try
+
+25
+00:00:58.000 --> 00:01:00.001
+and come up with customer promotions.
+
+26
+00:01:00.001 --> 00:01:03.001
+They started out using supervised machine learning
+
+27
+00:01:03.001 --> 00:01:06.004
+to classify the customers into two different groups.
+
+28
+00:01:06.004 --> 00:01:09.003
+Remember, this is called binary classification.
+
+29
+00:01:09.003 --> 00:01:12.000
+The first group of customers used promotions
+
+30
+00:01:12.000 --> 00:01:14.004
+and the second group never used them.
+
+31
+00:01:14.004 --> 00:01:16.000
+Then they used machine learning algorithms
+
+32
+00:01:16.000 --> 00:01:19.006
+to train the system on this binary classification.
+
+33
+00:01:19.006 --> 00:01:22.007
+Once they classified their customers into these two groups,
+
+34
+00:01:22.007 --> 00:01:25.004
+they used unsupervised machine learning.
+
+35
+00:01:25.004 --> 00:01:27.002
+They wanted to see if they could learn something
+
+36
+00:01:27.002 --> 00:01:29.007
+about their customers who used promotions
+
+37
+00:01:29.007 --> 00:01:31.009
+so they let the machine create clusters
+
+38
+00:01:31.009 --> 00:01:34.003
+of this specific customer.
+
+39
+00:01:34.003 --> 00:01:36.003
+Remember that unsupervised machine learning
+
+40
+00:01:36.003 --> 00:01:39.000
+lets the system create its own clusters based
+
+41
+00:01:39.000 --> 00:01:41.009
+on the patterns that it sees in the data.
+
+42
+00:01:41.009 --> 00:01:44.000
+It's the same way that my son found clusters
+
+43
+00:01:44.000 --> 00:01:46.001
+in unknown candy.
+
+44
+00:01:46.001 --> 00:01:47.008
+What they found was that within this group
+
+45
+00:01:47.008 --> 00:01:50.006
+who used promotions, there was an even smaller group
+
+46
+00:01:50.006 --> 00:01:53.007
+of customers who always used promotions.
+
+47
+00:01:53.007 --> 00:01:56.002
+They called them the promotions super users.
+
+48
+00:01:56.002 --> 00:01:58.005
+Since this company was paid based on the success
+
+49
+00:01:58.005 --> 00:02:02.001
+of its promotions, this was a great group to know.
+
+50
+00:02:02.001 --> 00:02:04.005
+They found that this group used promotions for products,
+
+51
+00:02:04.005 --> 00:02:06.004
+services, and restaurants.
+
+52
+00:02:06.004 --> 00:02:08.007
+Those customers just love saving money,
+
+53
+00:02:08.007 --> 00:02:10.004
+so the company tweaked the algorithm
+
+54
+00:02:10.004 --> 00:02:14.003
+to offer more promotions to these promotions super users.
+
+55
+00:02:14.003 --> 00:02:18.005
+That small change helped boost their overall success rate.
+
+56
+00:02:18.005 --> 00:02:21.000
+Now, this organization used both supervised
+
+57
+00:02:21.000 --> 00:02:23.009
+and unsupervised machine learning,
+
+58
+00:02:23.009 --> 00:02:25.006
+so you'll have some algorithms
+
+59
+00:02:25.006 --> 00:02:28.008
+that work best with supervised classifying
+
+60
+00:02:28.008 --> 00:02:31.002
+and other algorithms that work best
+
+61
+00:02:31.002 --> 00:02:34.001
+with unsupervised clustering.
+
+62
+00:02:34.001 --> 00:02:35.007
+That's why it's important to see some
+
+63
+00:02:35.007 --> 00:02:38.006
+of the machine learning algorithms that are available.
+
+64
+00:02:38.006 --> 00:02:41.007
+Each one has its own strengths and weaknesses.
+
+65
+00:02:41.007 --> 00:02:45.002
+Some take up more processing power while others are lighter
+
+66
+00:02:45.002 --> 00:02:47.001
+and less accurate.
+
+67
+00:02:47.001 --> 00:02:51.003
+Each algorithm is primarily used for either supervised
+
+68
+00:02:51.003 --> 00:02:54.003
+or unsupervised learning, but there are algorithms
+
+69
+00:02:54.003 --> 00:02:56.002
+that you can use for both.
+
+70
+00:02:56.002 --> 00:02:58.008
+Like any good chef, the true creativity
+
+71
+00:02:58.008 --> 00:03:01.002
+is not the tools, the ingredients.
+
+72
+00:03:01.002 --> 00:03:03.003
+Your data science team might want to mix
+
+73
+00:03:03.003 --> 00:03:06.004
+and match these algorithms to gain the greatest insights
+
+74
+00:03:06.004 --> 00:03:07.008
+from your data.
+
+75
+00:03:07.008 --> 00:03:10.002
+These machine learning algorithms are available
+
+76
+00:03:10.002 --> 00:03:13.005
+in most of the machine learning software toolkits
+
+77
+00:03:13.005 --> 00:03:17.004
+so it's here where your data science team can use its skill
+
+78
+00:03:17.004 --> 00:03:18.004
+and creativity.

@@ -1,0 +1,285 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:04.000
+- An artificial neural network is self tuning.
+
+2
+00:00:04.000 --> 00:00:06.003
+You've seen it's like a musical instrument.
+
+3
+00:00:06.003 --> 00:00:09.000
+It compares the output of the perfect note
+
+4
+00:00:09.000 --> 00:00:12.008
+and then twists its own dials to match this sound.
+
+5
+00:00:12.008 --> 00:00:13.009
+But at the end of the day,
+
+6
+00:00:13.009 --> 00:00:16.004
+an artificial neural network is still a form
+
+7
+00:00:16.004 --> 00:00:17.008
+of machine learning.
+
+8
+00:00:17.008 --> 00:00:20.006
+That means it uses many of the same tools and techniques
+
+9
+00:00:20.006 --> 00:00:22.005
+to help the system learn.
+
+10
+00:00:22.005 --> 00:00:25.001
+You've already seen that an artificial neural network
+
+11
+00:00:25.001 --> 00:00:28.007
+tunes itself by adding weights to the connections,
+
+12
+00:00:28.007 --> 00:00:30.009
+but adding weights to these connections
+
+13
+00:00:30.009 --> 00:00:33.008
+only corrects the variance.
+
+14
+00:00:33.008 --> 00:00:36.009
+Remember earlier that the system is trying to throw darts
+
+15
+00:00:36.009 --> 00:00:39.004
+in a tight cluster near the bullseye.
+
+16
+00:00:39.004 --> 00:00:40.008
+The network will throw a dart
+
+17
+00:00:40.008 --> 00:00:42.008
+and then measure how close it is
+
+18
+00:00:42.008 --> 00:00:44.007
+to making the right prediction.
+
+19
+00:00:44.007 --> 00:00:46.005
+Then it will adjust the weights
+
+20
+00:00:46.005 --> 00:00:49.008
+and throw another dart to see if it's closer.
+
+21
+00:00:49.008 --> 00:00:52.002
+Remember that when you're making a prediction,
+
+22
+00:00:52.002 --> 00:00:55.009
+you need to balance the bias and variance in the data.
+
+23
+00:00:55.009 --> 00:00:58.006
+This is called the bias variance trade off.
+
+24
+00:00:58.006 --> 00:01:02.008
+So adjusting the variance will have an impact on the bias.
+
+25
+00:01:02.008 --> 00:01:05.009
+In an artificial neural network, the bias is the number
+
+26
+00:01:05.009 --> 00:01:08.009
+that the system assigns to each neuron.
+
+27
+00:01:08.009 --> 00:01:11.008
+This bias number will shift the data
+
+28
+00:01:11.008 --> 00:01:15.001
+in a different direction to make it more accurate.
+
+29
+00:01:15.001 --> 00:01:18.000
+The network must tune itself to find a sweet spot
+
+30
+00:01:18.000 --> 00:01:21.008
+between the data bias and the data variance.
+
+31
+00:01:21.008 --> 00:01:25.000
+The main dial that it has to tune itself is adding weights
+
+32
+00:01:25.000 --> 00:01:29.000
+to the connections and adding a bias to the neuron.
+
+33
+00:01:29.000 --> 00:01:30.006
+Sometimes you almost feel bad
+
+34
+00:01:30.006 --> 00:01:32.007
+for making the artificial neural network
+
+35
+00:01:32.007 --> 00:01:34.008
+go through this tuning process.
+
+36
+00:01:34.008 --> 00:01:36.008
+It adjusts the weights of its connections
+
+37
+00:01:36.008 --> 00:01:38.005
+to decrease the variance spread,
+
+38
+00:01:38.005 --> 00:01:41.004
+but that shifts it slightly away from the target.
+
+39
+00:01:41.004 --> 00:01:44.000
+Then it adds a bias to correct for the shift,
+
+40
+00:01:44.000 --> 00:01:46.009
+but then that makes the data spread out again.
+
+41
+00:01:46.009 --> 00:01:48.008
+Humans would find this very frustrating.
+
+42
+00:01:48.008 --> 00:01:50.008
+It's like the machine is trying to throw darts
+
+43
+00:01:50.008 --> 00:01:54.005
+in a tight formation, while at the same time using bias
+
+44
+00:01:54.005 --> 00:01:57.009
+to shift the whole dartboard closer to the bullseye.
+
+45
+00:01:57.009 --> 00:02:00.002
+On top of that, artificial neural networks
+
+46
+00:02:00.002 --> 00:02:02.004
+tend to overfit the data.
+
+47
+00:02:02.004 --> 00:02:05.001
+Remember that overfitting is when the system adds a lot
+
+48
+00:02:05.001 --> 00:02:07.002
+of complexity when it's training.
+
+49
+00:02:07.002 --> 00:02:09.003
+So when an artificial neural network is looking
+
+50
+00:02:09.003 --> 00:02:11.004
+at the data in a training set,
+
+51
+00:02:11.004 --> 00:02:14.005
+it might overlearn lessons about the data.
+
+52
+00:02:14.005 --> 00:02:16.005
+Since it's overfitting its training set,
+
+53
+00:02:16.005 --> 00:02:19.003
+it might make big shifts when you adjust the variance.
+
+54
+00:02:19.003 --> 00:02:21.003
+That makes it even more difficult for the machine
+
+55
+00:02:21.003 --> 00:02:25.003
+to find a nice balance between the bias and the variance.
+
+56
+00:02:25.003 --> 00:02:27.009
+It's like the system is trying to drive straight
+
+57
+00:02:27.009 --> 00:02:29.004
+on an icy road.
+
+58
+00:02:29.004 --> 00:02:31.007
+On one side of the road is too much bias
+
+59
+00:02:31.007 --> 00:02:34.003
+and on the other side of the road is too much variance.
+
+60
+00:02:34.003 --> 00:02:36.006
+If it slides too much in one direction,
+
+61
+00:02:36.006 --> 00:02:39.000
+it has to steer its way back.
+
+62
+00:02:39.000 --> 00:02:41.000
+One key thing to remember about bias
+
+63
+00:02:41.000 --> 00:02:42.007
+is that it's on the neuron
+
+64
+00:02:42.007 --> 00:02:46.001
+and not assigned to the connection like the weights.
+
+65
+00:02:46.001 --> 00:02:48.002
+If you think about it, that makes a lot of sense.
+
+66
+00:02:48.002 --> 00:02:50.006
+The machine can only add the bias
+
+67
+00:02:50.006 --> 00:02:53.002
+after it sees what happens with the variance.
+
+68
+00:02:53.002 --> 00:02:56.000
+In a sense, it can only shift the dartboard
+
+69
+00:02:56.000 --> 00:02:58.002
+after it's already thrown a few darts.
+
+70
+00:02:58.002 --> 00:03:00.004
+Otherwise, the machine wouldn't know which way
+
+71
+00:03:00.004 --> 00:03:01.005
+to make the shifts.

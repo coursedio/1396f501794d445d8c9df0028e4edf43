@@ -1,0 +1,309 @@
+WEBVTT
+
+1
+00:00:00.009 --> 00:00:02.006
+- Machine learning has gotten a big boost
+
+2
+00:00:02.006 --> 00:00:04.007
+from artificial neural networks.
+
+3
+00:00:04.007 --> 00:00:07.006
+An artificial neural network is an AI system
+
+4
+00:00:07.006 --> 00:00:10.006
+that mimics the structure of the human brain
+
+5
+00:00:10.006 --> 00:00:11.004
+and it's currently one
+
+6
+00:00:11.004 --> 00:00:14.001
+of the most popular approaches to machine learning.
+
+7
+00:00:14.001 --> 00:00:15.004
+Think of it this way.
+
+8
+00:00:15.004 --> 00:00:16.003
+When I was a kid,
+
+9
+00:00:16.003 --> 00:00:19.005
+we used to play a game called animal, vegetable, or mineral.
+
+10
+00:00:19.005 --> 00:00:20.009
+The point of the game was simple.
+
+11
+00:00:20.009 --> 00:00:22.005
+Someone would think of an item.
+
+12
+00:00:22.005 --> 00:00:24.004
+Then all the other kids would ask questions
+
+13
+00:00:24.004 --> 00:00:26.000
+about what the item was.
+
+14
+00:00:26.000 --> 00:00:28.006
+We'd ask things like, does it have fur?
+
+15
+00:00:28.006 --> 00:00:30.003
+Is it bigger than a house?
+
+16
+00:00:30.003 --> 00:00:31.003
+Then in another round,
+
+17
+00:00:31.003 --> 00:00:34.005
+we'd ask if it's alive, does it make noise?
+
+18
+00:00:34.005 --> 00:00:36.006
+After each round, we would start to zoom in
+
+19
+00:00:36.006 --> 00:00:38.002
+to identify the item.
+
+20
+00:00:38.002 --> 00:00:40.006
+Then at the end, we started making guesses.
+
+21
+00:00:40.006 --> 00:00:41.008
+Is it a horse?
+
+22
+00:00:41.008 --> 00:00:43.001
+Is it a cat?
+
+23
+00:00:43.001 --> 00:00:44.009
+Is it a dog?
+
+24
+00:00:44.009 --> 00:00:48.007
+An artificial neural network uses a very similar approach,
+
+25
+00:00:48.007 --> 00:00:51.001
+except instead of asking questions,
+
+26
+00:00:51.001 --> 00:00:52.009
+the neural network uses hundreds
+
+27
+00:00:52.009 --> 00:00:57.002
+or even millions of numerical dials.
+
+28
+00:00:57.002 --> 00:01:01.001
+Also, the network makes much more specific guesses.
+
+29
+00:01:01.001 --> 00:01:04.006
+It would say that there's a 64% chance that it's a cat
+
+30
+00:01:04.006 --> 00:01:07.008
+or a 32% chance that it's a dog.
+
+31
+00:01:07.008 --> 00:01:09.002
+To build the network,
+
+32
+00:01:09.002 --> 00:01:12.003
+there's a row of neurons on the left called the input layer.
+
+33
+00:01:12.003 --> 00:01:13.003
+Then there's a row of neurons
+
+34
+00:01:13.003 --> 00:01:16.001
+on the right called the output layer.
+
+35
+00:01:16.001 --> 00:01:19.004
+All the neurons in between are called the hidden layers.
+
+36
+00:01:19.004 --> 00:01:22.005
+They're hidden because it's not the input or output.
+
+37
+00:01:22.005 --> 00:01:25.005
+To start, we'd feed the input layer of the network
+
+38
+00:01:25.005 --> 00:01:27.001
+a picture of a dog.
+
+39
+00:01:27.001 --> 00:01:30.006
+We know it's a picture of a dog because we've labeled it
+
+40
+00:01:30.006 --> 00:01:32.000
+but the neural network doesn't look
+
+41
+00:01:32.000 --> 00:01:34.006
+at these labels until it makes a guess.
+
+42
+00:01:34.006 --> 00:01:37.005
+Just like the animal, vegetable, mineral game.
+
+43
+00:01:37.005 --> 00:01:39.004
+The network would then look at each dot
+
+44
+00:01:39.004 --> 00:01:42.006
+in the image as it passes through the hidden layers.
+
+45
+00:01:42.006 --> 00:01:45.002
+Then it makes a guess for the output layer.
+
+46
+00:01:45.002 --> 00:01:46.005
+Let's say for the first guess,
+
+47
+00:01:46.005 --> 00:01:49.009
+it says there's a 10% chance the image contains a dog.
+
+48
+00:01:49.009 --> 00:01:51.009
+Then the network compares its guess
+
+49
+00:01:51.009 --> 00:01:53.009
+to the label on the image.
+
+50
+00:01:53.009 --> 00:01:57.001
+This is called training the neural network.
+
+51
+00:01:57.001 --> 00:02:00.007
+Then the network goes backwards and adjusts the neuron dials
+
+52
+00:02:00.007 --> 00:02:04.000
+so they can see patterns in dog photos.
+
+53
+00:02:04.000 --> 00:02:08.009
+Then it takes another dog image and sees if it gets closer.
+
+54
+00:02:08.009 --> 00:02:11.002
+The neural network then tunes itself
+
+55
+00:02:11.002 --> 00:02:14.008
+by looking at hundreds of thousands of pictures of dogs.
+
+56
+00:02:14.008 --> 00:02:17.001
+Then it will adjust its own dials
+
+57
+00:02:17.001 --> 00:02:20.003
+until it consistently guesses correctly.
+
+58
+00:02:20.003 --> 00:02:21.007
+Now, it's important to keep in mind
+
+59
+00:02:21.007 --> 00:02:22.009
+that the neural network
+
+60
+00:02:22.009 --> 00:02:25.002
+isn't seeing the dog the same way you do.
+
+61
+00:02:25.002 --> 00:02:28.006
+It doesn't think about panting, barking, or fur.
+
+62
+00:02:28.006 --> 00:02:30.005
+Instead, the system only sees the dog
+
+63
+00:02:30.005 --> 00:02:34.002
+as a recognizable pattern of dots in an image.
+
+64
+00:02:34.002 --> 00:02:36.008
+When there's dots in a dog-like pattern,
+
+65
+00:02:36.008 --> 00:02:39.003
+then the system makes a guess.
+
+66
+00:02:39.003 --> 00:02:41.000
+Now, remember that these neural networks
+
+67
+00:02:41.000 --> 00:02:43.001
+are still machine learning systems,
+
+68
+00:02:43.001 --> 00:02:44.006
+so the network needs access
+
+69
+00:02:44.006 --> 00:02:46.006
+to huge amounts of data.
+
+70
+00:02:46.006 --> 00:02:50.001
+If you don't have hundreds of thousands of pictures of dogs,
+
+71
+00:02:50.001 --> 00:02:51.000
+then there's no way
+
+72
+00:02:51.000 --> 00:02:54.000
+for that artificial neural network to learn.
+
+73
+00:02:54.000 --> 00:02:55.008
+In the end, this is the key benefit
+
+74
+00:02:55.008 --> 00:02:57.006
+of an artificial neural network.
+
+75
+00:02:57.006 --> 00:03:00.002
+It can train itself to understand patterns
+
+76
+00:03:00.002 --> 00:03:02.006
+and recognize that input when looking
+
+77
+00:03:02.006 --> 00:03:04.008
+through massive amounts of data.

@@ -1,0 +1,289 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:04.001
+- As human beings, we add weights to our data all the time.
+
+2
+00:00:04.001 --> 00:00:06.000
+We look at the features of the data
+
+3
+00:00:06.000 --> 00:00:08.001
+to better predict our output.
+
+4
+00:00:08.001 --> 00:00:09.006
+Let's say that you're looking at a photograph
+
+5
+00:00:09.006 --> 00:00:11.009
+of a beautiful grassy open space.
+
+6
+00:00:11.009 --> 00:00:14.006
+Then you see a little blurry object in the photo.
+
+7
+00:00:14.006 --> 00:00:16.001
+What do you think the odds are
+
+8
+00:00:16.001 --> 00:00:19.000
+that that blurry object is a dog?
+
+9
+00:00:19.000 --> 00:00:22.000
+Now, imagine you're looking at an image of a dry desert.
+
+10
+00:00:22.000 --> 00:00:24.007
+This picture also has a little blurry object.
+
+11
+00:00:24.007 --> 00:00:28.003
+What do you think the odds are that this object is a dog?
+
+12
+00:00:28.003 --> 00:00:29.006
+If you're like most people,
+
+13
+00:00:29.006 --> 00:00:31.006
+you'd guess that a dog is much more likely
+
+14
+00:00:31.006 --> 00:00:33.003
+to be in a grassy field,
+
+15
+00:00:33.003 --> 00:00:37.000
+so your human neural connections added a positive weight
+
+16
+00:00:37.000 --> 00:00:38.004
+to the grassy field
+
+17
+00:00:38.004 --> 00:00:41.006
+and a negative weight to the arid desert.
+
+18
+00:00:41.006 --> 00:00:44.002
+Artificial neural networks do the same thing.
+
+19
+00:00:44.002 --> 00:00:46.004
+Like us, these networks need to work
+
+20
+00:00:46.004 --> 00:00:48.009
+in a world of probabilities.
+
+21
+00:00:48.009 --> 00:00:50.006
+It's possible that there's a dog
+
+22
+00:00:50.006 --> 00:00:52.000
+in the middle of the desert,
+
+23
+00:00:52.000 --> 00:00:54.000
+but if you're an artificial neuron,
+
+24
+00:00:54.000 --> 00:00:57.002
+you're going to be very skeptical about activating.
+
+25
+00:00:57.002 --> 00:00:59.006
+An artificial neural network is structured in a way
+
+26
+00:00:59.006 --> 00:01:03.005
+so they can better tune itself to understand your data.
+
+27
+00:01:03.005 --> 00:01:06.008
+It's almost like a self-tuning musical instrument.
+
+28
+00:01:06.008 --> 00:01:08.009
+To tune an instrument like a guitar,
+
+29
+00:01:08.009 --> 00:01:12.006
+you need knobs to twist as you strum the note.
+
+30
+00:01:12.006 --> 00:01:14.004
+With artificial neural networks,
+
+31
+00:01:14.004 --> 00:01:18.003
+these knobs change the weights of your connections
+
+32
+00:01:18.003 --> 00:01:20.005
+between your neurons.
+
+33
+00:01:20.005 --> 00:01:22.008
+An artificial neural network adds weights
+
+34
+00:01:22.008 --> 00:01:26.000
+to the connections between neurons in each layer.
+
+35
+00:01:26.000 --> 00:01:29.001
+Each neuron in the hidden layer feeds forward
+
+36
+00:01:29.001 --> 00:01:32.002
+into every other neuron in the next layer.
+
+37
+00:01:32.002 --> 00:01:35.009
+So if there are 100 neurons in every hidden layer,
+
+38
+00:01:35.009 --> 00:01:37.008
+each neuron in that layer
+
+39
+00:01:37.008 --> 00:01:40.003
+will have 100 connections going out.
+
+40
+00:01:40.003 --> 00:01:42.002
+That's a lot of connectivity.
+
+41
+00:01:42.002 --> 00:01:44.000
+But where it gets really powerful
+
+42
+00:01:44.000 --> 00:01:47.007
+is that each one of these connections will have a weight.
+
+43
+00:01:47.007 --> 00:01:50.002
+That's why if you've ever seen a sketch of a neural network,
+
+44
+00:01:50.002 --> 00:01:52.005
+you'll see that each one of the connection lines
+
+45
+00:01:52.005 --> 00:01:54.006
+has a W with a number.
+
+46
+00:01:54.006 --> 00:01:58.006
+So in this case, you would have a W1, W2, W3,
+
+47
+00:01:58.006 --> 00:02:01.004
+all the way up to W100.
+
+48
+00:02:01.004 --> 00:02:04.008
+You'd see this for each one of the hidden layers.
+
+49
+00:02:04.008 --> 00:02:06.009
+Now, the weights in each one of these connections
+
+50
+00:02:06.009 --> 00:02:10.001
+is a key part of how an artificial neural network
+
+51
+00:02:10.001 --> 00:02:12.003
+tunes itself.
+
+52
+00:02:12.003 --> 00:02:14.003
+Keep in mind, an artificial neural network
+
+53
+00:02:14.003 --> 00:02:17.003
+is just a form of supervised machine learning.
+
+54
+00:02:17.003 --> 00:02:19.005
+So, data scientists use the same technique
+
+55
+00:02:19.005 --> 00:02:21.006
+that they've used to train the network.
+
+56
+00:02:21.006 --> 00:02:23.008
+Remember that supervised machine learning
+
+57
+00:02:23.008 --> 00:02:26.001
+starts out with a training set.
+
+58
+00:02:26.001 --> 00:02:27.006
+Then once the algorithm is tuned
+
+59
+00:02:27.006 --> 00:02:29.004
+to make accurate predictions,
+
+60
+00:02:29.004 --> 00:02:32.009
+you can then move on to the larger test data set.
+
+61
+00:02:32.009 --> 00:02:36.000
+The same thing happens with your artificial neural network.
+
+62
+00:02:36.000 --> 00:02:38.002
+When you first initialize your neural network,
+
+63
+00:02:38.002 --> 00:02:40.007
+the systems will randomly assign numbers
+
+64
+00:02:40.007 --> 00:02:43.003
+to these thousands of weights.
+
+65
+00:02:43.003 --> 00:02:45.009
+Then you'll feed your training data into the network
+
+66
+00:02:45.009 --> 00:02:48.000
+and let the system adjust the weights
+
+67
+00:02:48.000 --> 00:02:50.009
+based on whether you're getting correct output.
+
+68
+00:02:50.009 --> 00:02:53.007
+The network will repeat this over and over again
+
+69
+00:02:53.007 --> 00:02:56.002
+until it's accurately identifying the patterns
+
+70
+00:02:56.002 --> 00:02:57.004
+for the output.
+
+71
+00:02:57.004 --> 00:02:59.007
+It'll tune itself over time
+
+72
+00:02:59.007 --> 00:03:02.003
+to zero in on the best predictions.

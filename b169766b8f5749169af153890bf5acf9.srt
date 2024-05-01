@@ -1,0 +1,289 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:04.001
+- In 1956, computer scientists, Allen Newell
+
+2
+00:00:04.001 --> 00:00:06.006
+and Herbert A. Simon created a program
+
+3
+00:00:06.006 --> 00:00:09.000
+they called the general problem solver.
+
+4
+00:00:09.000 --> 00:00:11.006
+One of the key ideas of the general problem solver
+
+5
+00:00:11.006 --> 00:00:15.007
+was what they called the physical symbol system hypothesis.
+
+6
+00:00:15.007 --> 00:00:17.004
+They said that symbols were a big part
+
+7
+00:00:17.004 --> 00:00:19.003
+of how we interact with the world.
+
+8
+00:00:19.003 --> 00:00:22.007
+When you see a stop sign, you know how to stop for traffic.
+
+9
+00:00:22.007 --> 00:00:25.000
+When you see the letter A, you know that the word
+
+10
+00:00:25.000 --> 00:00:26.005
+will make a certain sound.
+
+11
+00:00:26.005 --> 00:00:29.003
+When you see a sandwich, you might think of eating.
+
+12
+00:00:29.003 --> 00:00:31.002
+They argued that if you could program a machine
+
+13
+00:00:31.002 --> 00:00:34.007
+to connect these symbols then it would be intelligent.
+
+14
+00:00:34.007 --> 00:00:37.000
+But not everyone bought into this idea.
+
+15
+00:00:37.000 --> 00:00:39.005
+If you program a car to stop at a sign,
+
+16
+00:00:39.005 --> 00:00:41.009
+or if you teach a computer to respond to language,
+
+17
+00:00:41.009 --> 00:00:45.000
+then it doesn't make the system intelligent.
+
+18
+00:00:45.000 --> 00:00:48.000
+In 1980, the philosopher John Searle explained
+
+19
+00:00:48.000 --> 00:00:51.000
+that sometimes systems can seem intelligent,
+
+20
+00:00:51.000 --> 00:00:53.008
+but they're just mindlessly matching patterns.
+
+21
+00:00:53.008 --> 00:00:55.005
+To explain, he created what he called
+
+22
+00:00:55.005 --> 00:00:57.009
+the Chinese room argument.
+
+23
+00:00:57.009 --> 00:00:59.007
+In the argument, you should imagine yourself
+
+24
+00:00:59.007 --> 00:01:02.009
+in a windowless room with one mail slot on the door.
+
+25
+00:01:02.009 --> 00:01:05.001
+You can only use this slot to communicate
+
+26
+00:01:05.001 --> 00:01:06.008
+with the outside world.
+
+27
+00:01:06.008 --> 00:01:09.005
+In the room, you have a phrase book on a desk and a bunch
+
+28
+00:01:09.005 --> 00:01:13.001
+of post-it notes with Chinese symbols on the floor.
+
+29
+00:01:13.001 --> 00:01:15.002
+The book shows what response you should use
+
+30
+00:01:15.002 --> 00:01:17.007
+with the note that comes through the slot.
+
+31
+00:01:17.007 --> 00:01:20.009
+It says, "If you see this sequence of Chinese symbols,
+
+32
+00:01:20.009 --> 00:01:24.007
+then respond with that sequence of Chinese symbols."
+
+33
+00:01:24.007 --> 00:01:27.005
+Now, imagine a speaker writes something in Chinese Mandarin
+
+34
+00:01:27.005 --> 00:01:29.007
+and pushes it through the slot.
+
+35
+00:01:29.007 --> 00:01:32.009
+You can look at the note and match it with your phrase book.
+
+36
+00:01:32.009 --> 00:01:34.009
+Then you paste together the Mandarin response
+
+37
+00:01:34.009 --> 00:01:37.009
+from the post-it notes on the floor.
+
+38
+00:01:37.009 --> 00:01:40.000
+You have no idea what it says in Mandarin.
+
+39
+00:01:40.000 --> 00:01:42.007
+Instead, you simply go through the process of looking
+
+40
+00:01:42.007 --> 00:01:45.006
+through the book and matching the sequence of symbols.
+
+41
+00:01:45.006 --> 00:01:48.004
+A native Chinese speaker behind the door might believe
+
+42
+00:01:48.004 --> 00:01:50.004
+that they're having a conversation.
+
+43
+00:01:50.004 --> 00:01:52.005
+In fact, they might even assume that the person
+
+44
+00:01:52.005 --> 00:01:54.006
+in the room is a native speaker.
+
+45
+00:01:54.006 --> 00:01:58.004
+But Searle argues that this is far from intelligence,
+
+46
+00:01:58.004 --> 00:01:59.009
+since the person in the room can't speak Mandarin,
+
+47
+00:01:59.009 --> 00:02:03.001
+and doesn't have any idea what they're talking about.
+
+48
+00:02:03.001 --> 00:02:05.007
+You can try a similar experiment with your smartphone.
+
+49
+00:02:05.007 --> 00:02:09.001
+Try asking Siri or Cortana how they feel.
+
+50
+00:02:09.001 --> 00:02:11.006
+They might say they feel fine, but that doesn't mean
+
+51
+00:02:11.006 --> 00:02:14.002
+that they're telling you how they really feel.
+
+52
+00:02:14.002 --> 00:02:16.005
+They also don't know what you're asking.
+
+53
+00:02:16.005 --> 00:02:18.002
+They're just matching your question
+
+54
+00:02:18.002 --> 00:02:20.001
+to a pre-program response,
+
+55
+00:02:20.001 --> 00:02:22.005
+just like the person in the Chinese room.
+
+56
+00:02:22.005 --> 00:02:24.009
+So Searle argues that matching symbols
+
+57
+00:02:24.009 --> 00:02:27.002
+is not a true path to intelligence.
+
+58
+00:02:27.002 --> 00:02:30.006
+That a computer is acting just like the person in the room.
+
+59
+00:02:30.006 --> 00:02:32.002
+They don't understand the meaning.
+
+60
+00:02:32.002 --> 00:02:35.005
+They're just matching patterns from a phrase book.
+
+61
+00:02:35.005 --> 00:02:37.009
+Even with these challenges, physical symbol systems
+
+62
+00:02:37.009 --> 00:02:41.009
+were still the cornerstone of AI for 25 years.
+
+63
+00:02:41.009 --> 00:02:44.007
+Yet, in the end, programming all these matching patterns
+
+64
+00:02:44.007 --> 00:02:46.005
+took up too much time.
+
+65
+00:02:46.005 --> 00:02:48.008
+It was impossible to match all the symbols
+
+66
+00:02:48.008 --> 00:02:52.000
+without running into an explosion of combinations.
+
+67
+00:02:52.000 --> 00:02:53.009
+These combinations would soon fill up
+
+68
+00:02:53.009 --> 00:02:56.002
+even the largest phrase book.
+
+69
+00:02:56.002 --> 00:02:58.007
+There were just too many possibilities to match symbols
+
+70
+00:02:58.007 --> 00:03:00.005
+with their program response.
+
+71
+00:03:00.005 --> 00:03:02.008
+So many philosophers like John Searle,
+
+72
+00:03:02.008 --> 00:03:06.003
+argued that the path would never lead to true intelligence.

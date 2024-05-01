@@ -1,0 +1,301 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:04.000
+- So, when is a computer system intelligent?
+
+2
+00:00:04.000 --> 00:00:05.004
+We've seen that when a computer system
+
+3
+00:00:05.004 --> 00:00:06.009
+is just matching symbols,
+
+4
+00:00:06.009 --> 00:00:09.003
+it's almost like a high-tech phrase book.
+
+5
+00:00:09.003 --> 00:00:11.002
+The system might seem intelligent,
+
+6
+00:00:11.002 --> 00:00:14.007
+but it's actually just like a parrot with a great memory.
+
+7
+00:00:14.007 --> 00:00:16.002
+The philosopher John Searle
+
+8
+00:00:16.002 --> 00:00:18.002
+said that you can think of artificial intelligence
+
+9
+00:00:18.002 --> 00:00:19.005
+in two ways.
+
+10
+00:00:19.005 --> 00:00:22.004
+There's strong AI and weak AI.
+
+11
+00:00:22.004 --> 00:00:24.001
+He thought we were much further away
+
+12
+00:00:24.001 --> 00:00:27.006
+from intelligent systems than most people realize.
+
+13
+00:00:27.006 --> 00:00:30.009
+Strong AI is when a machine displays all the behavior
+
+14
+00:00:30.009 --> 00:00:33.006
+you'd expect from a full fledged person.
+
+15
+00:00:33.006 --> 00:00:35.009
+This is usually what you see in science fiction.
+
+16
+00:00:35.009 --> 00:00:38.003
+These are artificial beings that have emotions,
+
+17
+00:00:38.003 --> 00:00:39.004
+a sense of humor,
+
+18
+00:00:39.004 --> 00:00:42.000
+and even have a sense of purpose.
+
+19
+00:00:42.000 --> 00:00:45.007
+That's why C-3PO is scared when they land on Tatooine.
+
+20
+00:00:45.007 --> 00:00:47.003
+It's also why Commander Data
+
+21
+00:00:47.003 --> 00:00:50.007
+shows real creativity when battling the Romulus.
+
+22
+00:00:50.007 --> 00:00:52.008
+On the flip side, there's weak AI.
+
+23
+00:00:52.008 --> 00:00:54.009
+A personal assistant like Apple Siri
+
+24
+00:00:54.009 --> 00:00:57.002
+is a good example of weak AI.
+
+25
+00:00:57.002 --> 00:01:01.000
+This is AI that's confined to a very narrow task.
+
+26
+00:01:01.000 --> 00:01:03.008
+It's like when a system processes language into text
+
+27
+00:01:03.008 --> 00:01:07.002
+or when it sorts all the pictures on your computer.
+
+28
+00:01:07.002 --> 00:01:09.000
+Most AI experts believe
+
+29
+00:01:09.000 --> 00:01:12.003
+that we're just starting down the path of weak AI.
+
+30
+00:01:12.003 --> 00:01:13.007
+Think about Siri.
+
+31
+00:01:13.007 --> 00:01:16.002
+You can talk to Siri and ask questions.
+
+32
+00:01:16.002 --> 00:01:17.007
+Siri listens to your input
+
+33
+00:01:17.007 --> 00:01:19.002
+and then converts your language
+
+34
+00:01:19.002 --> 00:01:21.007
+into something that the computer recognizes.
+
+35
+00:01:21.007 --> 00:01:25.008
+Then, Siri matches a response to what's in her database.
+
+36
+00:01:25.008 --> 00:01:28.002
+Most of the energy right now in AI
+
+37
+00:01:28.002 --> 00:01:31.002
+is around developing and expanding weak AI.
+
+38
+00:01:31.002 --> 00:01:35.001
+Strong AI is still very much just science fiction.
+
+39
+00:01:35.001 --> 00:01:36.009
+In the 1970s and '80s,
+
+40
+00:01:36.009 --> 00:01:38.004
+symbolic systems were used
+
+41
+00:01:38.004 --> 00:01:41.002
+to create weak artificial intelligence.
+
+42
+00:01:41.002 --> 00:01:44.004
+These were commonly called expert systems.
+
+43
+00:01:44.004 --> 00:01:45.002
+In these systems,
+
+44
+00:01:45.002 --> 00:01:47.002
+you have experts create a list of steps
+
+45
+00:01:47.002 --> 00:01:49.002
+to solve a complex problem.
+
+46
+00:01:49.002 --> 00:01:50.007
+If the list is long enough,
+
+47
+00:01:50.007 --> 00:01:53.002
+it starts to seem like intelligence.
+
+48
+00:01:53.002 --> 00:01:54.001
+But again, this system
+
+49
+00:01:54.001 --> 00:01:58.005
+is just parroting back program responses created by experts.
+
+50
+00:01:58.005 --> 00:02:02.000
+These expert systems were often used in medicine.
+
+51
+00:02:02.000 --> 00:02:05.002
+A nurse might input symptoms into a computer.
+
+52
+00:02:05.002 --> 00:02:06.007
+If the patient has a cough,
+
+53
+00:02:06.007 --> 00:02:08.005
+then check if they have a temperature.
+
+54
+00:02:08.005 --> 00:02:10.001
+If they have a cough and a temperature,
+
+55
+00:02:10.001 --> 00:02:12.001
+then check to see if they're dehydrated.
+
+56
+00:02:12.001 --> 00:02:14.007
+If they have a cough, a temperature, and are dehydrated,
+
+57
+00:02:14.007 --> 00:02:17.007
+then ask the nurse to check for bronchitis.
+
+58
+00:02:17.007 --> 00:02:18.007
+To a patient,
+
+59
+00:02:18.007 --> 00:02:20.005
+it might look like they're being diagnosed
+
+60
+00:02:20.005 --> 00:02:22.004
+by an intelligent computer.
+
+61
+00:02:22.004 --> 00:02:24.004
+In reality, the program is just matching
+
+62
+00:02:24.004 --> 00:02:25.008
+the symbols and patterns
+
+63
+00:02:25.008 --> 00:02:28.009
+that an expert created to reach a diagnosis.
+
+64
+00:02:28.009 --> 00:02:32.008
+Just like the phrase book in the Chinese Room experiment.
+
+65
+00:02:32.008 --> 00:02:35.006
+In the end, expert systems ran into the same problem
+
+66
+00:02:35.006 --> 00:02:37.009
+as any other symbolic system.
+
+67
+00:02:37.009 --> 00:02:40.007
+They would lead to explosions of combinations.
+
+68
+00:02:40.007 --> 00:02:43.002
+There were just too many patterns to match.
+
+69
+00:02:43.002 --> 00:02:46.002
+Think about all the different questions a doctor might ask
+
+70
+00:02:46.002 --> 00:02:48.003
+to reach a diagnosis.
+
+71
+00:02:48.003 --> 00:02:49.009
+Yet, the symbolic systems approach
+
+72
+00:02:49.009 --> 00:02:52.008
+was a key starting point for artificial intelligence.
+
+73
+00:02:52.008 --> 00:02:54.003
+It's still used today.
+
+74
+00:02:54.003 --> 00:02:57.000
+In fact, many experts still refer to it
+
+75
+00:02:57.000 --> 00:03:00.007
+as GOFAI, or good old-fashioned AI.

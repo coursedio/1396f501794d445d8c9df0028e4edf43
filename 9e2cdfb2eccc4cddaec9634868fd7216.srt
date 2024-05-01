@@ -1,0 +1,321 @@
+WEBVTT
+
+1
+00:00:00.009 --> 00:00:03.000
+- One of the best ways to connect with humans
+
+2
+00:00:03.000 --> 00:00:05.004
+is to join us in the physical world.
+
+3
+00:00:05.004 --> 00:00:08.001
+That's why robotics is one of the most interesting areas
+
+4
+00:00:08.001 --> 00:00:09.009
+in artificial intelligence.
+
+5
+00:00:09.009 --> 00:00:13.009
+Robotics is about having machines work on physical tasks.
+
+6
+00:00:13.009 --> 00:00:16.008
+This can be lifting heavy objects in manufacturing
+
+7
+00:00:16.008 --> 00:00:19.004
+or using robots that deliver food.
+
+8
+00:00:19.004 --> 00:00:21.002
+Robots can even be vehicles,
+
+9
+00:00:21.002 --> 00:00:24.005
+like self-driving cars or subway trains.
+
+10
+00:00:24.005 --> 00:00:26.006
+Inventors have long been fascinated
+
+11
+00:00:26.006 --> 00:00:28.006
+with finding ways to have machines
+
+12
+00:00:28.006 --> 00:00:30.005
+behave like living objects.
+
+13
+00:00:30.005 --> 00:00:32.006
+In the past, robots were just limited
+
+14
+00:00:32.006 --> 00:00:35.001
+to highly specialized machines.
+
+15
+00:00:35.001 --> 00:00:38.004
+They were used as welding machines in auto manufacturing.
+
+16
+00:00:38.004 --> 00:00:39.009
+The auto plants near my hometown
+
+17
+00:00:39.009 --> 00:00:42.008
+employed several specialized robots.
+
+18
+00:00:42.008 --> 00:00:45.009
+Some could lift a car and install parts underneath,
+
+19
+00:00:45.009 --> 00:00:49.002
+but none of them would ever be mistaken as intelligent.
+
+20
+00:00:49.002 --> 00:00:53.000
+As impressive as they were, these robots were very limited
+
+21
+00:00:53.000 --> 00:00:54.009
+in what they could accomplish.
+
+22
+00:00:54.009 --> 00:00:56.005
+Unless they were programmed,
+
+23
+00:00:56.005 --> 00:00:59.001
+they couldn't help a coworker open a car door
+
+24
+00:00:59.001 --> 00:01:01.002
+or start painting the hood.
+
+25
+00:01:01.002 --> 00:01:04.002
+They worked best for repetitive tasks.
+
+26
+00:01:04.002 --> 00:01:06.007
+Robotics combined with machine learning
+
+27
+00:01:06.007 --> 00:01:09.000
+gives us many more options.
+
+28
+00:01:09.000 --> 00:01:11.002
+A machine can adapt to its environment
+
+29
+00:01:11.002 --> 00:01:13.008
+and learn new tasks on the job.
+
+30
+00:01:13.008 --> 00:01:17.000
+A basic example of this is self-driving vehicles.
+
+31
+00:01:17.000 --> 00:01:18.007
+You couldn't program a car to react
+
+32
+00:01:18.007 --> 00:01:20.007
+to everything it might see on the road.
+
+33
+00:01:20.007 --> 00:01:23.007
+That's why the newest vehicles are using machine learning
+
+34
+00:01:23.007 --> 00:01:25.008
+on an artificial neural network.
+
+35
+00:01:25.008 --> 00:01:29.000
+These vehicles are outfitted with complex sensors
+
+36
+00:01:29.000 --> 00:01:31.005
+that feed data into the network.
+
+37
+00:01:31.005 --> 00:01:34.002
+It needs to understand all the different roads
+
+38
+00:01:34.002 --> 00:01:35.005
+a vehicle might encounter.
+
+39
+00:01:35.005 --> 00:01:38.003
+Then it needs to look at all the different people,
+
+40
+00:01:38.003 --> 00:01:40.003
+animals, and other vehicles
+
+41
+00:01:40.003 --> 00:01:42.009
+the car might find on these roads.
+
+42
+00:01:42.009 --> 00:01:46.008
+Then the machine looks for patterns in successful driving.
+
+43
+00:01:46.008 --> 00:01:48.000
+A car must react differently
+
+44
+00:01:48.000 --> 00:01:49.008
+when a deer is crossing the road
+
+45
+00:01:49.008 --> 00:01:53.001
+than when it sees a pedestrian walking a dog.
+
+46
+00:01:53.001 --> 00:01:55.003
+That's why you often see self-driving cars
+
+47
+00:01:55.003 --> 00:01:57.003
+with a human in the driver's seat.
+
+48
+00:01:57.003 --> 00:02:00.000
+They supervise how the artificial neural network
+
+49
+00:02:00.000 --> 00:02:03.003
+reacts to the data streaming in from the outside world.
+
+50
+00:02:03.003 --> 00:02:05.007
+But like any new skill, it takes time
+
+51
+00:02:05.007 --> 00:02:08.001
+for the machine to collect enough data.
+
+52
+00:02:08.001 --> 00:02:09.007
+In artificial neural networks,
+
+53
+00:02:09.007 --> 00:02:12.008
+this is often called training the network.
+
+54
+00:02:12.008 --> 00:02:14.005
+Google famously said that they think
+
+55
+00:02:14.005 --> 00:02:17.007
+of their self-driving cars not as a robotics problem,
+
+56
+00:02:17.007 --> 00:02:19.008
+but as a data problem.
+
+57
+00:02:19.008 --> 00:02:22.001
+It's true that to figure out how to get a car
+
+58
+00:02:22.001 --> 00:02:24.001
+to steer left or right is simple
+
+59
+00:02:24.001 --> 00:02:26.005
+compared to having a car understand
+
+60
+00:02:26.005 --> 00:02:28.007
+when to turn left or right.
+
+61
+00:02:28.007 --> 00:02:31.006
+Some robots don't need this level of complexity.
+
+62
+00:02:31.006 --> 00:02:35.003
+That's why some of them just use good old-fashioned AI.
+
+63
+00:02:35.003 --> 00:02:37.000
+Remember that this is an AI system
+
+64
+00:02:37.000 --> 00:02:40.005
+that uses symbolic reasoning instead of machine learning.
+
+65
+00:02:40.005 --> 00:02:42.005
+You would just try to program the robot
+
+66
+00:02:42.005 --> 00:02:44.004
+to act intelligently.
+
+67
+00:02:44.004 --> 00:02:46.002
+This is the difference between a Roomba,
+
+68
+00:02:46.002 --> 00:02:48.009
+that's just programmed to avoid bumping into walls,
+
+69
+00:02:48.009 --> 00:02:51.004
+and a self-driving car that really needs
+
+70
+00:02:51.004 --> 00:02:53.005
+to understand the roads.
+
+71
+00:02:53.005 --> 00:02:56.007
+Most robots today are still programmed like a Roomba
+
+72
+00:02:56.007 --> 00:02:59.002
+and not learning like a self-driving car.
+
+73
+00:02:59.002 --> 00:03:01.005
+That's because when you're in the physical world,
+
+74
+00:03:01.005 --> 00:03:04.008
+there's a much higher price to pay if you make a mistake.
+
+75
+00:03:04.008 --> 00:03:06.002
+So if you wanted to create a robot
+
+76
+00:03:06.002 --> 00:03:08.005
+that distributes prescription medication,
+
+77
+00:03:08.005 --> 00:03:11.004
+there's a huge cost to making errors.
+
+78
+00:03:11.004 --> 00:03:14.003
+That's why many robots take the simpler approach
+
+79
+00:03:14.003 --> 00:03:17.002
+and still benefit from symbolic systems
+
+80
+00:03:17.002 --> 00:03:18.008
+and good old-fashioned AI.

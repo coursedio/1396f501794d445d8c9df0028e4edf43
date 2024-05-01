@@ -1,0 +1,313 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:03.000
+- Today, there are thermostats, doorbells,
+
+2
+00:00:03.000 --> 00:00:06.009
+and televisions that connect with each other and the world.
+
+3
+00:00:06.009 --> 00:00:09.007
+And there are smartwatches that check your location
+
+4
+00:00:09.007 --> 00:00:12.003
+and some even upload medical data.
+
+5
+00:00:12.003 --> 00:00:13.007
+This new way of connecting
+
+6
+00:00:13.007 --> 00:00:16.007
+is commonly called the internet of things.
+
+7
+00:00:16.007 --> 00:00:19.008
+Sometimes you'll see it as IoT for short.
+
+8
+00:00:19.008 --> 00:00:22.005
+IoT devices are objects with sensors
+
+9
+00:00:22.005 --> 00:00:24.008
+that communicate with the outside world.
+
+10
+00:00:24.008 --> 00:00:28.000
+They typically upload data through the internet.
+
+11
+00:00:28.000 --> 00:00:31.004
+IoT devices are a massive new source of data.
+
+12
+00:00:31.004 --> 00:00:33.000
+They can upload their locations,
+
+13
+00:00:33.000 --> 00:00:36.000
+so that means that if you are wearing an IoT device
+
+14
+00:00:36.000 --> 00:00:37.007
+then these machine learning systems
+
+15
+00:00:37.007 --> 00:00:40.005
+can see patterns in where you travel.
+
+16
+00:00:40.005 --> 00:00:42.007
+They can accurately predict where you work,
+
+17
+00:00:42.007 --> 00:00:46.000
+shop, eat, watch, and who you visit.
+
+18
+00:00:46.000 --> 00:00:48.002
+Maybe your smartwatch will tell your thermostat
+
+19
+00:00:48.002 --> 00:00:49.009
+when you're on the way home.
+
+20
+00:00:49.009 --> 00:00:51.009
+IoT also allows these devices
+
+21
+00:00:51.009 --> 00:00:53.007
+to communicate with each other.
+
+22
+00:00:53.007 --> 00:00:55.003
+They could unlock your doors
+
+23
+00:00:55.003 --> 00:00:58.005
+or have your computer turn on when you sit at your desk.
+
+24
+00:00:58.005 --> 00:01:01.008
+In some ways, these new devices make it easier
+
+25
+00:01:01.008 --> 00:01:05.004
+to create data than it is for humans to analyze.
+
+26
+00:01:05.004 --> 00:01:09.003
+That's why many IoT companies invest heavily in AI.
+
+27
+00:01:09.003 --> 00:01:13.000
+AI not only allows organizations to see new patterns,
+
+28
+00:01:13.000 --> 00:01:15.008
+it also allows them to quickly react.
+
+29
+00:01:15.008 --> 00:01:18.006
+IoT devices and artificial intelligence
+
+30
+00:01:18.006 --> 00:01:20.004
+are a powerful combination
+
+31
+00:01:20.004 --> 00:01:22.005
+that allow companies to create systems
+
+32
+00:01:22.005 --> 00:01:25.004
+that predict people's behavior.
+
+33
+00:01:25.004 --> 00:01:28.004
+My family purchased one of the earliest versions
+
+34
+00:01:28.004 --> 00:01:31.004
+of Amazon's Alexa home assistant.
+
+35
+00:01:31.004 --> 00:01:33.006
+It was a terrific and simple clock,
+
+36
+00:01:33.006 --> 00:01:35.003
+but early on my wife noticed
+
+37
+00:01:35.003 --> 00:01:37.003
+that the Amazon recommendation list
+
+38
+00:01:37.003 --> 00:01:39.004
+was becoming populated with things
+
+39
+00:01:39.004 --> 00:01:41.007
+that were part of our conversations.
+
+40
+00:01:41.007 --> 00:01:44.001
+We once talked about visiting a relative in Rome
+
+41
+00:01:44.001 --> 00:01:45.004
+that a few days later,
+
+42
+00:01:45.004 --> 00:01:47.002
+a travel guide to Rome popped up
+
+43
+00:01:47.002 --> 00:01:49.003
+in our Amazon recommended list.
+
+44
+00:01:49.003 --> 00:01:51.004
+Ring doorbells also collect data
+
+45
+00:01:51.004 --> 00:01:53.005
+on people who walk in front of your house.
+
+46
+00:01:53.005 --> 00:01:57.002
+The company can use machine learning for facial recognition.
+
+47
+00:01:57.002 --> 00:01:59.000
+It can then use your doorbell
+
+48
+00:01:59.000 --> 00:02:01.001
+to create a vast surveillance network
+
+49
+00:02:01.001 --> 00:02:03.004
+that's sold to police departments.
+
+50
+00:02:03.004 --> 00:02:05.002
+These departments can use this data
+
+51
+00:02:05.002 --> 00:02:07.002
+to place people at the scene of a crime
+
+52
+00:02:07.002 --> 00:02:09.009
+or locate people they're interested in finding.
+
+53
+00:02:09.009 --> 00:02:14.000
+One area that has a lot of growth is IoT medical devices.
+
+54
+00:02:14.000 --> 00:02:16.008
+You can now purchase a smartwatch that's as accurate
+
+55
+00:02:16.008 --> 00:02:20.004
+as your doctor's electrocardiogram or EKG.
+
+56
+00:02:20.004 --> 00:02:23.005
+They can use the sensors to detect any health issues.
+
+57
+00:02:23.005 --> 00:02:26.006
+Then they can upload that data to their servers.
+
+58
+00:02:26.006 --> 00:02:30.000
+Companies like Apple look for patterns in EKG data
+
+59
+00:02:30.000 --> 00:02:32.009
+using machine learning on a neural network.
+
+60
+00:02:32.009 --> 00:02:35.008
+Their network can go through millions of participants.
+
+61
+00:02:35.008 --> 00:02:38.003
+They can use this data to find patterns
+
+62
+00:02:38.003 --> 00:02:41.003
+to accurately predict any health issues.
+
+63
+00:02:41.003 --> 00:02:43.003
+It's certainly helpful to have machines find
+
+64
+00:02:43.003 --> 00:02:44.008
+predictable patterns.
+
+65
+00:02:44.008 --> 00:02:46.007
+Maybe they'll find that people are more likely
+
+66
+00:02:46.007 --> 00:02:49.001
+to have health issues on Wednesdays.
+
+67
+00:02:49.001 --> 00:02:50.002
+They can also see patterns
+
+68
+00:02:50.002 --> 00:02:52.005
+that affect large groups of people.
+
+69
+00:02:52.005 --> 00:02:54.008
+You could see something like air pollution
+
+70
+00:02:54.008 --> 00:02:57.003
+and its effect on the city's health.
+
+71
+00:02:57.003 --> 00:03:00.004
+In many ways, the IoT devices take the strength
+
+72
+00:03:00.004 --> 00:03:02.003
+of machine learning in the digital world
+
+73
+00:03:02.003 --> 00:03:05.003
+and put it in the realm of the physical world.
+
+74
+00:03:05.003 --> 00:03:07.005
+Instead of just seeing what you're doing online,
+
+75
+00:03:07.005 --> 00:03:11.002
+an IoT device can track your behavior offline.
+
+76
+00:03:11.002 --> 00:03:13.009
+This has enormous potential for organizations
+
+77
+00:03:13.009 --> 00:03:15.007
+to sell your products based on
+
+78
+00:03:15.007 --> 00:03:17.008
+what you need and where you go.

@@ -1,0 +1,317 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:01.008
+- In machine learning,
+
+2
+00:00:01.008 --> 00:00:04.002
+one of the best ways to learn more about your data
+
+3
+00:00:04.002 --> 00:00:07.005
+is by classifying it with what you already know.
+
+4
+00:00:07.005 --> 00:00:08.007
+Think of it this way.
+
+5
+00:00:08.007 --> 00:00:09.006
+When I was younger,
+
+6
+00:00:09.006 --> 00:00:12.003
+I worked for an animal shelter in Chicago.
+
+7
+00:00:12.003 --> 00:00:13.008
+One of the most difficult jobs
+
+8
+00:00:13.008 --> 00:00:17.004
+was classifying the breed of incoming dogs.
+
+9
+00:00:17.004 --> 00:00:19.007
+There are hundreds of different dog breeds,
+
+10
+00:00:19.007 --> 00:00:22.003
+and most dogs are mixed.
+
+11
+00:00:22.003 --> 00:00:23.008
+Each time we got a new dog,
+
+12
+00:00:23.008 --> 00:00:27.001
+we would hold it up to the dogs whose breed we already knew.
+
+13
+00:00:27.001 --> 00:00:29.000
+Then we'd look at some of the features.
+
+14
+00:00:29.000 --> 00:00:30.005
+Maybe it was the shape of their face
+
+15
+00:00:30.005 --> 00:00:32.001
+or the color of their hair.
+
+16
+00:00:32.001 --> 00:00:36.002
+In a sense, the shelter was classifying the unknown dog
+
+17
+00:00:36.002 --> 00:00:39.002
+by looking at its nearest neighbor.
+
+18
+00:00:39.002 --> 00:00:40.005
+Of course, it's not easy to tell
+
+19
+00:00:40.005 --> 00:00:44.004
+whether a dog was a Boston Terrier or a French bulldog.
+
+20
+00:00:44.004 --> 00:00:45.007
+The closer the match,
+
+21
+00:00:45.007 --> 00:00:48.009
+the more likely it was to be classified.
+
+22
+00:00:48.009 --> 00:00:49.009
+Another way to look at it
+
+23
+00:00:49.009 --> 00:00:51.009
+is we were trying to minimize the distance
+
+24
+00:00:51.009 --> 00:00:55.005
+between the unknown dog and the known breeds.
+
+25
+00:00:55.005 --> 00:00:57.006
+If the features were closely matched,
+
+26
+00:00:57.006 --> 00:00:58.009
+then there was a short distance
+
+27
+00:00:58.009 --> 00:01:03.001
+between the unknown dog and its nearest neighbor.
+
+28
+00:01:03.001 --> 00:01:05.005
+A very common supervised machine learning algorithm
+
+29
+00:01:05.005 --> 00:01:10.005
+for multi-class classification is called K nearest neighbor.
+
+30
+00:01:10.005 --> 00:01:12.005
+The algorithm plots new data
+
+31
+00:01:12.005 --> 00:01:15.004
+and compares it to the data that you already have.
+
+32
+00:01:15.004 --> 00:01:16.009
+Multi-class classification
+
+33
+00:01:16.009 --> 00:01:19.004
+is different from binary classification,
+
+34
+00:01:19.004 --> 00:01:22.002
+because there are more than two dog breeds.
+
+35
+00:01:22.002 --> 00:01:26.003
+Minimizing the distance is a key part of K nearest neighbor.
+
+36
+00:01:26.003 --> 00:01:28.008
+The closer you are to your nearest neighbors,
+
+37
+00:01:28.008 --> 00:01:31.006
+the more likely you are to be accurate.
+
+38
+00:01:31.006 --> 00:01:32.009
+The most common way to do that
+
+39
+00:01:32.009 --> 00:01:35.008
+is through something called Euclidean distance.
+
+40
+00:01:35.008 --> 00:01:37.007
+This is a mathematical formula
+
+41
+00:01:37.007 --> 00:01:41.003
+that can help see the distance between data points.
+
+42
+00:01:41.003 --> 00:01:43.004
+Now imagine you had millions of dogs
+
+43
+00:01:43.004 --> 00:01:46.005
+and you wanted to classify them based on their breed.
+
+44
+00:01:46.005 --> 00:01:50.004
+To start out, you might want to create two key features.
+
+45
+00:01:50.004 --> 00:01:52.001
+These will help you classify the dogs
+
+46
+00:01:52.001 --> 00:01:53.008
+that share the same breed.
+
+47
+00:01:53.008 --> 00:01:57.007
+These are often called classification predictors.
+
+48
+00:01:57.007 --> 00:02:00.006
+So let's use their weight and the length of their hair.
+
+49
+00:02:00.006 --> 00:02:02.005
+Then we'll take these two features
+
+50
+00:02:02.005 --> 00:02:05.008
+and put them on an x y axis diagram.
+
+51
+00:02:05.008 --> 00:02:07.000
+This is the same diagram
+
+52
+00:02:07.000 --> 00:02:09.009
+that you used in geometry in school.
+
+53
+00:02:09.009 --> 00:02:13.001
+Let's put the length of their hair along the y axis
+
+54
+00:02:13.001 --> 00:02:15.008
+and their weight along the x axis.
+
+55
+00:02:15.008 --> 00:02:19.002
+Now take 1,000 labeled dogs for the training set.
+
+56
+00:02:19.002 --> 00:02:20.006
+This will be like the shelter dogs
+
+57
+00:02:20.006 --> 00:02:22.004
+where we already knew the breed.
+
+58
+00:02:22.004 --> 00:02:23.007
+We'll put them on the graph
+
+59
+00:02:23.007 --> 00:02:26.000
+based on their weight and hair length.
+
+60
+00:02:26.000 --> 00:02:29.005
+Now let's take our unknown dog and put it on the chart.
+
+61
+00:02:29.005 --> 00:02:32.001
+You can see that it's not matched with another dog,
+
+62
+00:02:32.001 --> 00:02:34.006
+but it has a bunch of neighbors.
+
+63
+00:02:34.006 --> 00:02:36.009
+Let's say we use a K of five.
+
+64
+00:02:36.009 --> 00:02:38.007
+That means that we'd want to put a circle
+
+65
+00:02:38.007 --> 00:02:43.005
+around our unclassified dog and its five nearest neighbors.
+
+66
+00:02:43.005 --> 00:02:46.007
+We can see if the distance of the other dogs is shorter,
+
+67
+00:02:46.007 --> 00:02:49.008
+we'll get a much more accurate classification.
+
+68
+00:02:49.008 --> 00:02:52.007
+Now let's look at the five nearest neighbors.
+
+69
+00:02:52.007 --> 00:02:54.007
+You'll see that three of them are shepherds
+
+70
+00:02:54.007 --> 00:02:56.008
+and two of them are huskies.
+
+71
+00:02:56.008 --> 00:02:58.005
+You can be somewhat confident
+
+72
+00:02:58.005 --> 00:03:01.007
+to classify your unknown dog as a shepherd.
+
+73
+00:03:01.007 --> 00:03:04.008
+There's also a reasonable chance that it's a husky.
+
+74
+00:03:04.008 --> 00:03:05.007
+K nearest neighbor
+
+75
+00:03:05.007 --> 00:03:08.008
+is a very common and powerful machine learning algorithm.
+
+76
+00:03:08.008 --> 00:03:11.009
+That's because you can do more than just classify dogs.
+
+77
+00:03:11.009 --> 00:03:14.003
+In fact, it's commonly used in finance
+
+78
+00:03:14.003 --> 00:03:15.008
+to look for the best stocks,
+
+79
+00:03:15.008 --> 00:03:18.003
+and even predict future performance.

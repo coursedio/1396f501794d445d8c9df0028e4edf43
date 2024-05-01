@@ -1,0 +1,305 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:04.005
+- Online music is close to a $30 billion industry.
+
+2
+00:00:04.005 --> 00:00:07.006
+And if you think about it, it's kind of a strange business.
+
+3
+00:00:07.006 --> 00:00:09.007
+A lot of times you can buy the same songs
+
+4
+00:00:09.007 --> 00:00:13.002
+from Apple Music, Spotify, or Tidal.
+
+5
+00:00:13.002 --> 00:00:15.001
+So why would you want to sign up for one service
+
+6
+00:00:15.001 --> 00:00:16.004
+over the other?
+
+7
+00:00:16.004 --> 00:00:18.008
+For most people, this has to do with the power
+
+8
+00:00:18.008 --> 00:00:21.001
+of their recommendation system.
+
+9
+00:00:21.001 --> 00:00:22.005
+A lot of these systems started off
+
+10
+00:00:22.005 --> 00:00:25.000
+by using unsupervised machine learning.
+
+11
+00:00:25.000 --> 00:00:26.007
+They would recommend songs the same ways
+
+12
+00:00:26.007 --> 00:00:29.000
+that online retailers would say things
+
+13
+00:00:29.000 --> 00:00:31.002
+were frequently bought together.
+
+14
+00:00:31.002 --> 00:00:32.008
+But the best music libraries
+
+15
+00:00:32.008 --> 00:00:34.009
+don't just want you to buy things together,
+
+16
+00:00:34.009 --> 00:00:37.007
+many of them want you to discover something new.
+
+17
+00:00:37.007 --> 00:00:38.005
+So for that,
+
+18
+00:00:38.005 --> 00:00:41.000
+you have to use a different form of machine learning.
+
+19
+00:00:41.000 --> 00:00:42.008
+This from of machine learning is called
+
+20
+00:00:42.008 --> 00:00:44.008
+Reinforcement Learning.
+
+21
+00:00:44.008 --> 00:00:46.009
+These are machine learning algorithms
+
+22
+00:00:46.009 --> 00:00:51.000
+that use rewards as a way to give the system incentive
+
+23
+00:00:51.000 --> 00:00:53.002
+to find new patterns.
+
+24
+00:00:53.002 --> 00:00:54.003
+A few years ago,
+
+25
+00:00:54.003 --> 00:00:56.002
+Google used Reinforcement Learning
+
+26
+00:00:56.002 --> 00:00:58.004
+to teach artificial intelligence systems
+
+27
+00:00:58.004 --> 00:01:00.003
+how to play video games.
+
+28
+00:01:00.003 --> 00:01:03.009
+Their AI systems beat expert players at Pong, Atari,
+
+29
+00:01:03.009 --> 00:01:06.003
+and even more modern video games.
+
+30
+00:01:06.003 --> 00:01:07.002
+But reinforcement learning
+
+31
+00:01:07.002 --> 00:01:09.009
+can do much more than just play video games.
+
+32
+00:01:09.009 --> 00:01:12.004
+These systems can improve over time,
+
+33
+00:01:12.004 --> 00:01:16.007
+by setting a series of goals and rewards.
+
+34
+00:01:16.007 --> 00:01:17.008
+Think of it this way,
+
+35
+00:01:17.008 --> 00:01:20.009
+Spotify Discover Weekly compares your favorite songs
+
+36
+00:01:20.009 --> 00:01:22.009
+with a bunch of related songs.
+
+37
+00:01:22.009 --> 00:01:24.007
+The machine learning algorithm tracks
+
+38
+00:01:24.007 --> 00:01:27.000
+every time you click and play a song.
+
+39
+00:01:27.000 --> 00:01:29.008
+It also keeps track of how long you listen.
+
+40
+00:01:29.008 --> 00:01:31.008
+The data scientists design the algorithms
+
+41
+00:01:31.008 --> 00:01:34.007
+so that every time you click a related song,
+
+42
+00:01:34.007 --> 00:01:37.001
+it gets a tiny digital reward.
+
+43
+00:01:37.001 --> 00:01:40.004
+It's almost like money for the machine learning system.
+
+44
+00:01:40.004 --> 00:01:42.002
+It gets this reward coin
+
+45
+00:01:42.002 --> 00:01:44.005
+when you click on the recommended song.
+
+46
+00:01:44.005 --> 00:01:49.002
+Then the longer you listen, the more the reward increases,
+
+47
+00:01:49.002 --> 00:01:51.009
+so it gets a reward coin for every minute
+
+48
+00:01:51.009 --> 00:01:53.009
+that you listen to the song.
+
+49
+00:01:53.009 --> 00:01:57.006
+These algorithms often use something called Q-Learning.
+
+50
+00:01:57.006 --> 00:01:59.009
+This type of reinforcement learning helps create
+
+51
+00:01:59.009 --> 00:02:02.003
+more sophisticated rewards.
+
+52
+00:02:02.003 --> 00:02:05.008
+In Q-Learning, there are set environments or states,
+
+53
+00:02:05.008 --> 00:02:07.005
+there are also possible actions
+
+54
+00:02:07.005 --> 00:02:09.009
+that can respond to the states.
+
+55
+00:02:09.009 --> 00:02:12.004
+In Q Learning, you want the machine to improve
+
+56
+00:02:12.004 --> 00:02:14.004
+the quality of the outcome,
+
+57
+00:02:14.004 --> 00:02:17.008
+which is represented by the letter Q.
+
+58
+00:02:17.008 --> 00:02:20.005
+In this case, you'd start with a Q of zero.
+
+59
+00:02:20.005 --> 00:02:22.007
+Then you'd have the machine learn the actions
+
+60
+00:02:22.007 --> 00:02:24.009
+that improve its conditions.
+
+61
+00:02:24.009 --> 00:02:28.005
+The state of Q would go up each time you clicked a song.
+
+62
+00:02:28.005 --> 00:02:30.002
+You can almost think of Q-Learning
+
+63
+00:02:30.002 --> 00:02:32.002
+like the system's bank account.
+
+64
+00:02:32.002 --> 00:02:36.001
+It can earn a bunch of coins and then see the balance grow.
+
+65
+00:02:36.001 --> 00:02:37.009
+Once the reward system is set up,
+
+66
+00:02:37.009 --> 00:02:41.000
+it'll look for patterns to try an increase
+
+67
+00:02:41.000 --> 00:02:43.002
+its Q-Learning bank account.
+
+68
+00:02:43.002 --> 00:02:46.002
+So if it sees a pattern where people who like one song
+
+69
+00:02:46.002 --> 00:02:49.002
+might listen to another, it'll exploit that
+
+70
+00:02:49.002 --> 00:02:52.008
+and make sure to put that song on your Discover Weekly.
+
+71
+00:02:52.008 --> 00:02:54.009
+Reinforcement learning systems work best
+
+72
+00:02:54.009 --> 00:02:57.001
+when your organization wants to do more
+
+73
+00:02:57.001 --> 00:03:01.001
+than just cluster items that are frequently bought together.
+
+74
+00:03:01.001 --> 00:03:02.005
+With Reinforcement Learning,
+
+75
+00:03:02.005 --> 00:03:06.005
+your organization can build a system that thinks creatively
+
+76
+00:03:06.005 --> 00:03:08.004
+about what your customer can discover.

@@ -1,0 +1,301 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:02.002
+- We humans tend to think
+
+2
+00:00:02.002 --> 00:00:04.003
+of right and wrong as one or the other.
+
+3
+00:00:04.003 --> 00:00:06.004
+You're either right or you're wrong,
+
+4
+00:00:06.004 --> 00:00:07.008
+but artificial neural networks
+
+5
+00:00:07.008 --> 00:00:10.002
+need to be much more specific.
+
+6
+00:00:10.002 --> 00:00:11.004
+To a neural network,
+
+7
+00:00:11.004 --> 00:00:16.009
+95% right is much different from 97% right.
+
+8
+00:00:16.009 --> 00:00:19.007
+The challenge is how the system figures out
+
+9
+00:00:19.007 --> 00:00:21.007
+how wrong that is.
+
+10
+00:00:21.007 --> 00:00:26.004
+In a sense, the neural network needs a measure of wrongness.
+
+11
+00:00:26.004 --> 00:00:30.003
+In neural networks this is measured as a cost function.
+
+12
+00:00:30.003 --> 00:00:32.004
+The cost function is just a number
+
+13
+00:00:32.004 --> 00:00:35.001
+that the system uses to measure its answer
+
+14
+00:00:35.001 --> 00:00:37.001
+against the correct answer.
+
+15
+00:00:37.001 --> 00:00:40.007
+If it's really close, then that number will be small.
+
+16
+00:00:40.007 --> 00:00:44.003
+But if it's really far off, then that number will be larger.
+
+17
+00:00:44.003 --> 00:00:46.003
+Say your neural network is trying to determine
+
+18
+00:00:46.003 --> 00:00:48.009
+if an image contains a dog.
+
+19
+00:00:48.009 --> 00:00:53.009
+The network says there's a 97% chance that it's a dog photo,
+
+20
+00:00:53.009 --> 00:00:56.005
+but it turns out that it's a cat photo.
+
+21
+00:00:56.005 --> 00:01:00.000
+That wrongness will have a slight cost.
+
+22
+00:01:00.000 --> 00:01:01.004
+Now, let's say that the network says
+
+23
+00:01:01.004 --> 00:01:05.003
+that there's a 99% chance that it's a dog photo,
+
+24
+00:01:05.003 --> 00:01:08.007
+but this time it's a photo of a snow-covered mountain.
+
+25
+00:01:08.007 --> 00:01:11.008
+This wrongness will have a much higher cost.
+
+26
+00:01:11.008 --> 00:01:15.009
+That's because here the network was very, very wrong,
+
+27
+00:01:15.009 --> 00:01:19.005
+so it needs to make more aggressive adjustments
+
+28
+00:01:19.005 --> 00:01:22.001
+to its weights and biases.
+
+29
+00:01:22.001 --> 00:01:25.000
+Trying to correct for wrongness is a tricky thing.
+
+30
+00:01:25.000 --> 00:01:26.009
+For that, a lot of neural networks
+
+31
+00:01:26.009 --> 00:01:30.000
+use something called gradient descent.
+
+32
+00:01:30.000 --> 00:01:35.003
+Gradient means steepness, and descent means going down.
+
+33
+00:01:35.003 --> 00:01:37.002
+So imagine that your artificial neural network
+
+34
+00:01:37.002 --> 00:01:38.006
+is playing darts again.
+
+35
+00:01:38.006 --> 00:01:39.009
+It's making predictions
+
+36
+00:01:39.009 --> 00:01:42.004
+and seeing how close it gets to the bullseye.
+
+37
+00:01:42.004 --> 00:01:44.009
+Some of the predictions are way off,
+
+38
+00:01:44.009 --> 00:01:47.001
+but other predictions are close.
+
+39
+00:01:47.001 --> 00:01:48.005
+When it throws a dart,
+
+40
+00:01:48.005 --> 00:01:51.008
+there's a distance between it and the dartboard.
+
+41
+00:01:51.008 --> 00:01:54.003
+When it's in the air, the dart travels
+
+42
+00:01:54.003 --> 00:01:57.007
+at an upward angle and then a downward angle.
+
+43
+00:01:57.007 --> 00:01:59.002
+Then it hits the board.
+
+44
+00:01:59.002 --> 00:02:02.001
+If it misses the board entirely, it'll want to make
+
+45
+00:02:02.001 --> 00:02:04.005
+a bigger change to the angle.
+
+46
+00:02:04.005 --> 00:02:06.005
+If it's very close to the target,
+
+47
+00:02:06.005 --> 00:02:09.007
+then it'll want to make the tiniest change to the angle.
+
+48
+00:02:09.007 --> 00:02:11.009
+That way it can hit the bullseye.
+
+49
+00:02:11.009 --> 00:02:14.006
+Well, the neural network does pretty much the same thing.
+
+50
+00:02:14.006 --> 00:02:17.005
+It uses calculations of gradient descent
+
+51
+00:02:17.005 --> 00:02:20.007
+to adjust the weights and biases in the network.
+
+52
+00:02:20.007 --> 00:02:22.006
+It's not using darts, but it's using
+
+53
+00:02:22.006 --> 00:02:24.004
+a very similar calculation
+
+54
+00:02:24.004 --> 00:02:27.009
+to measure the angle of its wrongness.
+
+55
+00:02:27.009 --> 00:02:30.004
+In fact, this is one of the biggest innovations
+
+56
+00:02:30.004 --> 00:02:32.002
+in artificial neural networks.
+
+57
+00:02:32.002 --> 00:02:36.001
+It's called the backpropagation of errors in the network,
+
+58
+00:02:36.001 --> 00:02:38.004
+or backprop for short.
+
+59
+00:02:38.004 --> 00:02:40.001
+Remember, we're using what's called
+
+60
+00:02:40.001 --> 00:02:42.009
+a feed forward artificial network.
+
+61
+00:02:42.009 --> 00:02:45.004
+Your data goes from left to right.
+
+62
+00:02:45.004 --> 00:02:48.000
+It starts at the input layer and moves forward
+
+63
+00:02:48.000 --> 00:02:49.005
+to the output layer.
+
+64
+00:02:49.005 --> 00:02:51.005
+But when your network makes a mistake,
+
+65
+00:02:51.005 --> 00:02:53.006
+it needs to go backwards.
+
+66
+00:02:53.006 --> 00:02:55.009
+It needs to use the gradient descent
+
+67
+00:02:55.009 --> 00:02:58.002
+to determine its wrongness.
+
+68
+00:02:58.002 --> 00:03:01.000
+Then it will use backprop to adjust the weights
+
+69
+00:03:01.000 --> 00:03:05.004
+and biases based on the seriousness of its error.
+
+70
+00:03:05.004 --> 00:03:08.000
+If the network really overshoots the target,
+
+71
+00:03:08.000 --> 00:03:10.005
+it'll want to make extreme adjustments.
+
+72
+00:03:10.005 --> 00:03:12.004
+But if the prediction is very close,
+
+73
+00:03:12.004 --> 00:03:15.000
+then the network should be much more careful.
+
+74
+00:03:15.000 --> 00:03:18.006
+The network will feed forward and then correct backward.
+
+75
+00:03:18.006 --> 00:03:22.002
+That way it can tune itself towards the correct answer.

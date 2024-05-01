@@ -1,0 +1,293 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:02.007
+- We've seen that artificial intelligence
+
+2
+00:00:02.007 --> 00:00:05.001
+started with the general problem solver.
+
+3
+00:00:05.001 --> 00:00:06.006
+This system used symbols
+
+4
+00:00:06.006 --> 00:00:09.008
+to explicitly program a computer's response.
+
+5
+00:00:09.008 --> 00:00:14.000
+Then just a few years after the first AI conference in 1956,
+
+6
+00:00:14.000 --> 00:00:16.005
+we saw the beginnings of machine learning.
+
+7
+00:00:16.005 --> 00:00:18.002
+Here, instead of programming,
+
+8
+00:00:18.002 --> 00:00:21.007
+the system learned by looking at patterns in data.
+
+9
+00:00:21.007 --> 00:00:25.005
+Now AI systems are integrating themselves in the workplace.
+
+10
+00:00:25.005 --> 00:00:27.006
+They can tackle complex problems
+
+11
+00:00:27.006 --> 00:00:30.003
+and can even come up with creative solutions,
+
+12
+00:00:30.003 --> 00:00:32.005
+and this is why it's important to understand
+
+13
+00:00:32.005 --> 00:00:34.006
+how these systems operate.
+
+14
+00:00:34.006 --> 00:00:36.008
+Most people who interact with AI systems
+
+15
+00:00:36.008 --> 00:00:38.006
+will not be data scientists,
+
+16
+00:00:38.006 --> 00:00:41.005
+many of them will be business people and entrepreneurs.
+
+17
+00:00:41.005 --> 00:00:44.001
+In fact, there's a pretty good chance in the next few years,
+
+18
+00:00:44.001 --> 00:00:46.005
+you will be working on an AI project.
+
+19
+00:00:46.005 --> 00:00:49.005
+Just like how managers work with software developers today,
+
+20
+00:00:49.005 --> 00:00:53.000
+these same managers will start to work with AI systems
+
+21
+00:00:53.000 --> 00:00:55.008
+and data scientists tomorrow.
+
+22
+00:00:55.008 --> 00:00:57.000
+Don't believe me?
+
+23
+00:00:57.000 --> 00:00:59.005
+Imagine someone on your team sent a report
+
+24
+00:00:59.005 --> 00:01:02.008
+on AI that sounds like this,
+
+25
+00:01:02.008 --> 00:01:06.000
+"Managers need to be able to set the right goals,
+
+26
+00:01:06.000 --> 00:01:08.005
+evaluate results, and give feedback for AI."
+
+27
+00:01:08.005 --> 00:01:10.005
+Just like any technology,
+
+28
+00:01:10.005 --> 00:01:14.001
+AI needs to be managed effectively to be successful.
+
+29
+00:01:14.001 --> 00:01:16.008
+Here are a few things to remember about AI.
+
+30
+00:01:16.008 --> 00:01:19.000
+First, AI systems are only as good
+
+31
+00:01:19.000 --> 00:01:20.006
+as the data they're given.
+
+32
+00:01:20.006 --> 00:01:22.001
+This data needs to be accurate
+
+33
+00:01:22.001 --> 00:01:24.003
+and representative of the real world.
+
+34
+00:01:24.003 --> 00:01:26.003
+If it's not, then the system will learn
+
+35
+00:01:26.003 --> 00:01:29.007
+from these inaccuracies and produce inaccurate results.
+
+36
+00:01:29.007 --> 00:01:33.005
+Second, AI systems learn by trying different things
+
+37
+00:01:33.005 --> 00:01:35.006
+and seeing which ones work best.
+
+38
+00:01:35.006 --> 00:01:38.004
+This means that there will be some trial and error.
+
+39
+00:01:38.004 --> 00:01:40.007
+As a manager, you need to be prepared for this
+
+40
+00:01:40.007 --> 00:01:43.007
+and have patience while the system is learning.
+
+41
+00:01:43.007 --> 00:01:47.007
+Finally, AI systems can do things that humans can't.
+
+42
+00:01:47.007 --> 00:01:50.001
+They can process large amounts of data quickly
+
+43
+00:01:50.001 --> 00:01:53.007
+and find patterns that we would never be able to see.
+
+44
+00:01:53.007 --> 00:01:57.002
+However, they still need supervision and direction.
+
+45
+00:01:57.002 --> 00:01:59.000
+With these three things in mind,
+
+46
+00:01:59.000 --> 00:02:00.005
+business people can start thinking
+
+47
+00:02:00.005 --> 00:02:03.001
+about how they will work with AI systems.
+
+48
+00:02:03.001 --> 00:02:05.005
+They can start thinking about the problems they want to solve
+
+49
+00:02:05.005 --> 00:02:09.001
+and how they want their systems to solve them.
+
+50
+00:02:09.001 --> 00:02:13.006
+Now, most of what I just said was written by an AI system.
+
+51
+00:02:13.006 --> 00:02:15.009
+It was written using GPT,
+
+52
+00:02:15.009 --> 00:02:19.006
+or Generative Pre-trained Transformer 3.
+
+53
+00:02:19.006 --> 00:02:21.005
+This system is commonly used
+
+54
+00:02:21.005 --> 00:02:24.000
+for natural language generation.
+
+55
+00:02:24.000 --> 00:02:26.006
+The AI system scanned through millions of articles
+
+56
+00:02:26.006 --> 00:02:28.002
+on artificial intelligence
+
+57
+00:02:28.002 --> 00:02:31.006
+and wrote out what I said after a short description.
+
+58
+00:02:31.006 --> 00:02:34.008
+Then it used a deep learning artificial neural network
+
+59
+00:02:34.008 --> 00:02:39.006
+to find patterns in articles about business people in AI.
+
+60
+00:02:39.006 --> 00:02:42.002
+It then just reassembled these common patterns
+
+61
+00:02:42.002 --> 00:02:45.002
+into a few paragraphs of text.
+
+62
+00:02:45.002 --> 00:02:46.008
+So now you can think about the ways
+
+63
+00:02:46.008 --> 00:02:50.003
+that AI systems can help you or your organization.
+
+64
+00:02:50.003 --> 00:02:52.004
+What type of data are you collecting?
+
+65
+00:02:52.004 --> 00:02:54.005
+What would you want to know about your customer
+
+66
+00:02:54.005 --> 00:02:56.009
+that might help enhance your business?
+
+67
+00:02:56.009 --> 00:02:58.009
+Or if you want to work in the field of AI,
+
+68
+00:02:58.009 --> 00:03:02.000
+then think about what problems you hope to solve.
+
+69
+00:03:02.000 --> 00:03:03.002
+In the next few years,
+
+70
+00:03:03.002 --> 00:03:06.003
+these systems will become eerily more human.
+
+71
+00:03:06.003 --> 00:03:09.002
+The organizations that create the best AI systems
+
+72
+00:03:09.002 --> 00:03:10.006
+will be the ones that enhance
+
+73
+00:03:10.006 --> 00:03:13.005
+and not replace human creativity.

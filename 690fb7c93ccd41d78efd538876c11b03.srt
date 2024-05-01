@@ -1,0 +1,289 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:03.005
+- In the old movie, "All the President's Men,"
+
+2
+00:00:03.005 --> 00:00:06.001
+the top informant of the Nixon scandal
+
+3
+00:00:06.001 --> 00:00:09.006
+met in a parking lot and said, "Follow the money."
+
+4
+00:00:09.006 --> 00:00:11.004
+Only by following the money
+
+5
+00:00:11.004 --> 00:00:13.009
+could the reporter find the truth.
+
+6
+00:00:13.009 --> 00:00:15.000
+Like the reporter,
+
+7
+00:00:15.000 --> 00:00:18.002
+machine learning algorithms must follow the data
+
+8
+00:00:18.002 --> 00:00:21.006
+to get to the truth, but that's easier said than done.
+
+9
+00:00:21.006 --> 00:00:24.005
+In fact, one of the biggest challenges in machine learning
+
+10
+00:00:24.005 --> 00:00:28.004
+is balancing the bias and the variance.
+
+11
+00:00:28.004 --> 00:00:31.001
+Bias is the gap between the predicted value
+
+12
+00:00:31.001 --> 00:00:33.002
+and the actual outcome.
+
+13
+00:00:33.002 --> 00:00:34.006
+Let's say that you were playing dice
+
+14
+00:00:34.006 --> 00:00:37.006
+and predicted that you would roll five, three times,
+
+15
+00:00:37.006 --> 00:00:40.002
+but you rolled four, three times.
+
+16
+00:00:40.002 --> 00:00:43.007
+Then your prediction would have a high bias.
+
+17
+00:00:43.007 --> 00:00:46.008
+You were off by one each time.
+
+18
+00:00:46.008 --> 00:00:48.009
+Variance is when the predicted values
+
+19
+00:00:48.009 --> 00:00:51.003
+are scattered all over the place.
+
+20
+00:00:51.003 --> 00:00:52.003
+So if you were playing dice
+
+21
+00:00:52.003 --> 00:00:54.009
+and you predicted that you would roll five, three times,
+
+22
+00:00:54.009 --> 00:00:58.007
+but you actually rolled two, four and six,
+
+23
+00:00:58.007 --> 00:01:00.007
+then you'd be off by different amounts.
+
+24
+00:01:00.007 --> 00:01:03.007
+Then your data would be too spread out.
+
+25
+00:01:03.007 --> 00:01:05.008
+Now, it might seem strange to make such a big deal
+
+26
+00:01:05.008 --> 00:01:08.001
+about how the system was wrong,
+
+27
+00:01:08.001 --> 00:01:10.005
+but when you're working with machine learning algorithms,
+
+28
+00:01:10.005 --> 00:01:12.009
+these are two separate challenges,
+
+29
+00:01:12.009 --> 00:01:16.007
+so the system needs to fix it in different ways.
+
+30
+00:01:16.007 --> 00:01:18.005
+Think about the game of darts.
+
+31
+00:01:18.005 --> 00:01:19.007
+The center of the dart board
+
+32
+00:01:19.007 --> 00:01:21.008
+is the machine's best prediction.
+
+33
+00:01:21.008 --> 00:01:23.008
+That means that the little red bullseye in the middle
+
+34
+00:01:23.008 --> 00:01:25.006
+is the right prediction.
+
+35
+00:01:25.006 --> 00:01:27.005
+The machine could throw three darts,
+
+36
+00:01:27.005 --> 00:01:30.004
+and each one of them would be consistently wrong.
+
+37
+00:01:30.004 --> 00:01:32.007
+They'd all land in the upper-right-hand corner
+
+38
+00:01:32.007 --> 00:01:34.006
+just above the red bullseye.
+
+39
+00:01:34.006 --> 00:01:38.005
+This is called having a high bias and low variance.
+
+40
+00:01:38.005 --> 00:01:40.005
+The darts are grouped together closely,
+
+41
+00:01:40.005 --> 00:01:43.002
+but all of them are too far to the right.
+
+42
+00:01:43.002 --> 00:01:46.000
+The dataset would have a high bias.
+
+43
+00:01:46.000 --> 00:01:47.009
+That means to make a better prediction
+
+44
+00:01:47.009 --> 00:01:50.003
+the machine would just have to pull the group of darts
+
+45
+00:01:50.003 --> 00:01:52.008
+down and to the left.
+
+46
+00:01:52.008 --> 00:01:54.006
+Now imagine a different challenge.
+
+47
+00:01:54.006 --> 00:01:56.008
+The machine throws the darts at the dart board
+
+48
+00:01:56.008 --> 00:01:58.004
+and they're all over the place.
+
+49
+00:01:58.004 --> 00:02:01.004
+That means that the data has a wide spread,
+
+50
+00:02:01.004 --> 00:02:04.004
+so this data would have a high variance.
+
+51
+00:02:04.004 --> 00:02:06.000
+To make a better prediction,
+
+52
+00:02:06.000 --> 00:02:08.005
+the machine would want to tighten up the darts
+
+53
+00:02:08.005 --> 00:02:10.007
+closest to the bullseye.
+
+54
+00:02:10.007 --> 00:02:14.002
+Ideally, you want the predictions to have a low bias
+
+55
+00:02:14.002 --> 00:02:15.006
+and a low variance.
+
+56
+00:02:15.006 --> 00:02:18.009
+That means that all the darts are in the bullseye.
+
+57
+00:02:18.009 --> 00:02:20.003
+But in most cases,
+
+58
+00:02:20.003 --> 00:02:23.003
+the machine is going to have to fix either a high bias
+
+59
+00:02:23.003 --> 00:02:25.003
+or a high variance.
+
+60
+00:02:25.003 --> 00:02:28.000
+In machine learning, this is such a common problem
+
+61
+00:02:28.000 --> 00:02:32.002
+that it's referred to as the bias-variance trade off.
+
+62
+00:02:32.002 --> 00:02:34.001
+Like any trade off, it means that if the system
+
+63
+00:02:34.001 --> 00:02:36.000
+tries to balance the impact of one,
+
+64
+00:02:36.000 --> 00:02:38.008
+it has to look at the impact on the other.
+
+65
+00:02:38.008 --> 00:02:41.002
+So if the machine decreases the variance spread,
+
+66
+00:02:41.002 --> 00:02:44.000
+it will also have to increase the bias.
+
+67
+00:02:44.000 --> 00:02:46.000
+If the machine increases the bias,
+
+68
+00:02:46.000 --> 00:02:48.005
+it increases the variance spread.
+
+69
+00:02:48.005 --> 00:02:51.003
+That's why the machine needs to follow the data.
+
+70
+00:02:51.003 --> 00:02:53.004
+The machine will turn each one of these knobs
+
+71
+00:02:53.004 --> 00:02:57.002
+to find the best trade off between bias and variance.
+
+72
+00:02:57.002 --> 00:03:00.005
+That way, it can zero in on the best predictions.

@@ -1,0 +1,301 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:04.004
+- Machine learning algorithms see patterns in your data,
+
+2
+00:00:04.004 --> 00:00:06.001
+but sometimes you just have too much data
+
+3
+00:00:06.001 --> 00:00:07.008
+to use these algorithms.
+
+4
+00:00:07.008 --> 00:00:09.008
+So, many large organizations
+
+5
+00:00:09.008 --> 00:00:12.008
+use artificial neural networks instead.
+
+6
+00:00:12.008 --> 00:00:15.009
+Artificial neural networks are a type of machine learning
+
+7
+00:00:15.009 --> 00:00:18.005
+that uses a structure like the human brain
+
+8
+00:00:18.005 --> 00:00:21.000
+to break down massive data sets.
+
+9
+00:00:21.000 --> 00:00:24.000
+Instead of using the previous machine learning algorithms,
+
+10
+00:00:24.000 --> 00:00:25.007
+an artificial neural network
+
+11
+00:00:25.007 --> 00:00:29.005
+breaks down your data into much smaller pieces.
+
+12
+00:00:29.005 --> 00:00:32.005
+Earlier, we talked about artificial neural networks
+
+13
+00:00:32.005 --> 00:00:36.004
+as a machine learning technique that mimics the brain.
+
+14
+00:00:36.004 --> 00:00:37.006
+The network is structured
+
+15
+00:00:37.006 --> 00:00:41.004
+with neurons that are organized into layers.
+
+16
+00:00:41.004 --> 00:00:44.005
+The layers move from left to right.
+
+17
+00:00:44.005 --> 00:00:47.006
+There's the input layer, the hidden layers,
+
+18
+00:00:47.006 --> 00:00:49.004
+and the output layer.
+
+19
+00:00:49.004 --> 00:00:51.004
+If the network has a lot of hidden layers,
+
+20
+00:00:51.004 --> 00:00:55.000
+then it's called a deep learning artificial neural network.
+
+21
+00:00:55.000 --> 00:00:58.002
+That's because the network is many layers deep.
+
+22
+00:00:58.002 --> 00:01:00.002
+The more hidden layers the network has,
+
+23
+00:01:00.002 --> 00:01:01.007
+the easier it'll be for the network
+
+24
+00:01:01.007 --> 00:01:04.009
+to identify very complex patterns.
+
+25
+00:01:04.009 --> 00:01:07.005
+So let's imagine creating an artificial neural network
+
+26
+00:01:07.005 --> 00:01:10.005
+to identify whether there's a dog in an image.
+
+27
+00:01:10.005 --> 00:01:13.002
+Think of it as a binary classification,
+
+28
+00:01:13.002 --> 00:01:15.008
+dog or not dog.
+
+29
+00:01:15.008 --> 00:01:18.006
+To do this, the image from the input layer
+
+30
+00:01:18.006 --> 00:01:22.006
+into dog or not dog needs to be classified.
+
+31
+00:01:22.006 --> 00:01:25.001
+You have the image coming in on the input layer,
+
+32
+00:01:25.001 --> 00:01:27.009
+then the output will be the classification
+
+33
+00:01:27.009 --> 00:01:31.000
+into dog or not dog.
+
+34
+00:01:31.000 --> 00:01:32.008
+We've already seen that, to a machine,
+
+35
+00:01:32.008 --> 00:01:36.004
+an image is just a collection of different bits of data.
+
+36
+00:01:36.004 --> 00:01:39.003
+So in this case, you'll have a bunch of pixels.
+
+37
+00:01:39.003 --> 00:01:41.008
+These are the tiny points of color on the image
+
+38
+00:01:41.008 --> 00:01:45.008
+and the different levels of brightness or contrast.
+
+39
+00:01:45.008 --> 00:01:49.002
+Let's take an image of a dog and break it into pixels.
+
+40
+00:01:49.002 --> 00:01:50.002
+Let's say that your image
+
+41
+00:01:50.002 --> 00:01:54.001
+is 25 pixels high and 25 pixels wide.
+
+42
+00:01:54.001 --> 00:01:57.009
+So your entire image holds 625 pixels.
+
+43
+00:01:57.009 --> 00:02:02.000
+That means that each image has 625 data points.
+
+44
+00:02:02.000 --> 00:02:04.008
+Let's say that we take these 625 pixels
+
+45
+00:02:04.008 --> 00:02:07.004
+and feed them into a neural network.
+
+46
+00:02:07.004 --> 00:02:10.004
+Each pixel is fed into the input layer.
+
+47
+00:02:10.004 --> 00:02:13.005
+Each of the 625 neurons in the input layer
+
+48
+00:02:13.005 --> 00:02:16.005
+has a number based on the color of the pixel.
+
+49
+00:02:16.005 --> 00:02:18.005
+Each of the neurons in the hidden layer
+
+50
+00:02:18.005 --> 00:02:21.006
+has something called an activation function.
+
+51
+00:02:21.006 --> 00:02:24.004
+An activation function is like a tiny gateway.
+
+52
+00:02:24.004 --> 00:02:27.002
+It lets the neuron decide whether it wants to send the data
+
+53
+00:02:27.002 --> 00:02:29.007
+to the next hidden layer in the network.
+
+54
+00:02:29.007 --> 00:02:33.003
+Each hidden layer feeds the pixel data forward
+
+55
+00:02:33.003 --> 00:02:35.001
+to the next hidden layer.
+
+56
+00:02:35.001 --> 00:02:37.003
+Then, at the very end, there'll be two nodes
+
+57
+00:02:37.003 --> 00:02:38.008
+in the output layer.
+
+58
+00:02:38.008 --> 00:02:41.009
+Remember, this is a binary classification challenge,
+
+59
+00:02:41.009 --> 00:02:44.000
+so there are only two options:
+
+60
+00:02:44.000 --> 00:02:46.008
+is there a dog or not dog?
+
+61
+00:02:46.008 --> 00:02:47.009
+Since the pixel data
+
+62
+00:02:47.009 --> 00:02:50.002
+moves through the layers from left to right,
+
+63
+00:02:50.002 --> 00:02:54.000
+this is called a feedforward neural network.
+
+64
+00:02:54.000 --> 00:02:56.004
+One of the great strengths of artificial neural networks
+
+65
+00:02:56.004 --> 00:02:58.006
+is that they're self-tuning.
+
+66
+00:02:58.006 --> 00:03:00.006
+They're almost like a musical instrument
+
+67
+00:03:00.006 --> 00:03:04.001
+that tune themselves until they get the perfect note.
+
+68
+00:03:04.001 --> 00:03:06.009
+So each of the two neurons in the output layer
+
+69
+00:03:06.009 --> 00:03:09.001
+will have a probability score.
+
+70
+00:03:09.001 --> 00:03:10.004
+The key thing to remember
+
+71
+00:03:10.004 --> 00:03:12.003
+is that an artificial neural network
+
+72
+00:03:12.003 --> 00:03:15.000
+is most often used for supervised learning.
+
+73
+00:03:15.000 --> 00:03:16.006
+You can train the network,
+
+74
+00:03:16.006 --> 00:03:18.003
+and then it will tune itself
+
+75
+00:03:18.003 --> 00:03:21.003
+based on whether it correctly identified your input.

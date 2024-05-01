@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.004 --> 00:00:02.004
+- Artificial intelligence systems are
+
+2
+00:00:02.004 --> 00:00:04.008
+now finding their way into the workplace.
+
+3
+00:00:04.008 --> 00:00:07.003
+These systems can discover new pharmaceuticals,
+
+4
+00:00:07.003 --> 00:00:11.002
+recommend products, detect fraud, and much more.
+
+5
+00:00:11.002 --> 00:00:14.000
+This course will give you a high-level overview
+
+6
+00:00:14.000 --> 00:00:17.004
+of artificial intelligence concepts and technology.
+
+7
+00:00:17.004 --> 00:00:20.009
+You'll see what it means for systems to be intelligent,
+
+8
+00:00:20.009 --> 00:00:24.002
+then discover some widely used machine learning algorithms
+
+9
+00:00:24.002 --> 00:00:26.005
+and artificial neural networks.
+
+10
+00:00:26.005 --> 00:00:27.009
+Many of those who interact
+
+11
+00:00:27.009 --> 00:00:30.009
+with these systems will be people just like you,
+
+12
+00:00:30.009 --> 00:00:34.009
+people in business, entrepreneurs, managers, or students.
+
+13
+00:00:34.009 --> 00:00:38.002
+Just as managers work with software developers today,
+
+14
+00:00:38.002 --> 00:00:39.008
+these same managers will work
+
+15
+00:00:39.008 --> 00:00:43.001
+with AI systems and data tomorrow.
+
+16
+00:00:43.001 --> 00:00:45.003
+So let's see what those machines have been up to
+
+17
+00:00:45.003 --> 00:00:48.001
+in the world of artificial intelligence.

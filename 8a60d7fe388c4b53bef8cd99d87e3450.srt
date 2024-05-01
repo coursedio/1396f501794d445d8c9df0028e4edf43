@@ -1,0 +1,297 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:02.005
+- When you think about machine learning
+
+2
+00:00:02.005 --> 00:00:05.005
+the key is to focus on the term learning.
+
+3
+00:00:05.005 --> 00:00:08.000
+What does it mean for your machine to learn?
+
+4
+00:00:08.000 --> 00:00:11.007
+What strategies can you use to learn something new?
+
+5
+00:00:11.007 --> 00:00:16.002
+How can you take the strategies and apply them to machines?
+
+6
+00:00:16.002 --> 00:00:18.005
+Imagine you wanted to learn how to play chess.
+
+7
+00:00:18.005 --> 00:00:20.007
+You could do this a couple of different ways.
+
+8
+00:00:20.007 --> 00:00:23.004
+You could hire a chess tutor, then they would introduce you
+
+9
+00:00:23.004 --> 00:00:25.006
+to some of the different chess pieces.
+
+10
+00:00:25.006 --> 00:00:28.002
+Then they'd show you how to move them around the board.
+
+11
+00:00:28.002 --> 00:00:30.009
+You could practice by playing against your tutor.
+
+12
+00:00:30.009 --> 00:00:33.002
+Then they would supervise your moves
+
+13
+00:00:33.002 --> 00:00:35.005
+and help you when you made a mistake.
+
+14
+00:00:35.005 --> 00:00:36.009
+If you couldn't find a tutor
+
+15
+00:00:36.009 --> 00:00:39.000
+you could also go to public parks.
+
+16
+00:00:39.000 --> 00:00:40.009
+There you'd watch people play.
+
+17
+00:00:40.009 --> 00:00:42.004
+You couldn't ask them questions.
+
+18
+00:00:42.004 --> 00:00:45.002
+You'd just quietly watch and learn.
+
+19
+00:00:45.002 --> 00:00:46.008
+You'd have to figure out chess just
+
+20
+00:00:46.008 --> 00:00:49.001
+by watching the games on your own.
+
+21
+00:00:49.001 --> 00:00:50.007
+If you did this long enough
+
+22
+00:00:50.007 --> 00:00:53.000
+you'd probably understand the game.
+
+23
+00:00:53.000 --> 00:00:54.009
+You might not know the names of the chess pieces
+
+24
+00:00:54.009 --> 00:00:56.002
+but you'd understand the moves
+
+25
+00:00:56.002 --> 00:01:00.002
+and strategies after hundreds of hours of observation.
+
+26
+00:01:00.002 --> 00:01:03.000
+These two strategies are very similar
+
+27
+00:01:03.000 --> 00:01:05.000
+to how a machine learns.
+
+28
+00:01:05.000 --> 00:01:08.007
+The system could do something called supervised learning.
+
+29
+00:01:08.007 --> 00:01:12.005
+Here, a data scientist acts like a tutor for the machine.
+
+30
+00:01:12.005 --> 00:01:15.005
+They show the machine the correct answers and then
+
+31
+00:01:15.005 --> 00:01:19.002
+let the system train itself to get better at the game.
+
+32
+00:01:19.002 --> 00:01:21.009
+The system could also do unsupervised learning.
+
+33
+00:01:21.009 --> 00:01:24.007
+Here you just have the machine make all the observations
+
+34
+00:01:24.007 --> 00:01:25.007
+on its own.
+
+35
+00:01:25.007 --> 00:01:27.008
+The system might not know all the different names
+
+36
+00:01:27.008 --> 00:01:29.003
+and labels, but it'll figure
+
+37
+00:01:29.003 --> 00:01:32.004
+out their way to learn from the data.
+
+38
+00:01:32.004 --> 00:01:34.004
+As you can imagine, these two approaches have
+
+39
+00:01:34.004 --> 00:01:36.005
+their own strengths and weaknesses.
+
+40
+00:01:36.005 --> 00:01:38.000
+For supervised learning
+
+41
+00:01:38.000 --> 00:01:40.005
+the system needs to have a knowledgeable tutor.
+
+42
+00:01:40.005 --> 00:01:42.001
+There must be someone that knows a lot
+
+43
+00:01:42.001 --> 00:01:45.008
+about chess that can show the system how to play the game.
+
+44
+00:01:45.008 --> 00:01:48.007
+With unsupervised learning, the system needs to have access
+
+45
+00:01:48.007 --> 00:01:49.009
+to a lot of data.
+
+46
+00:01:49.009 --> 00:01:52.006
+That's the only way to see the patterns.
+
+47
+00:01:52.006 --> 00:01:54.000
+The system might not be able to go
+
+48
+00:01:54.000 --> 00:01:57.006
+to a public park and watch hundreds of people play.
+
+49
+00:01:57.006 --> 00:02:00.006
+It also depends a little bit on who it watches.
+
+50
+00:02:00.006 --> 00:02:03.006
+You need it to watch people who are good players.
+
+51
+00:02:03.006 --> 00:02:05.009
+As you can imagine, these techniques are used
+
+52
+00:02:05.009 --> 00:02:08.001
+for much more than just playing chess.
+
+53
+00:02:08.001 --> 00:02:11.001
+Companies use these techniques to get valuable insights
+
+54
+00:02:11.001 --> 00:02:12.005
+about their customer.
+
+55
+00:02:12.005 --> 00:02:14.005
+With supervised learning, a company
+
+56
+00:02:14.005 --> 00:02:17.009
+like Amazon might identify a thousand customers
+
+57
+00:02:17.009 --> 00:02:20.007
+who spend a lot of time shopping on their website.
+
+58
+00:02:20.007 --> 00:02:24.002
+The company can then label these customers as high spenders.
+
+59
+00:02:24.002 --> 00:02:26.008
+Then it would have the machine learning system look
+
+60
+00:02:26.008 --> 00:02:28.009
+through the customer to find patterns that make
+
+61
+00:02:28.009 --> 00:02:31.001
+them high spenders.
+
+62
+00:02:31.001 --> 00:02:33.000
+Now, for unsupervised learning
+
+63
+00:02:33.000 --> 00:02:35.004
+a machine learning system could be given access
+
+64
+00:02:35.004 --> 00:02:37.008
+to all of Amazon's customer data.
+
+65
+00:02:37.008 --> 00:02:41.002
+Here, the system might find its own patterns in the data.
+
+66
+00:02:41.002 --> 00:02:43.005
+Maybe somebody who buys chessboards are much
+
+67
+00:02:43.005 --> 00:02:46.008
+more likely to buy an expensive kitchen appliance.
+
+68
+00:02:46.008 --> 00:02:50.006
+Then Amazon could use that data to advertise.
+
+69
+00:02:50.006 --> 00:02:53.001
+If you use Amazon, you may have noticed that sometimes
+
+70
+00:02:53.001 --> 00:02:56.001
+they advertise products that seem completely unrelated
+
+71
+00:02:56.001 --> 00:02:57.008
+to what you're looking for
+
+72
+00:02:57.008 --> 00:03:00.005
+but it's still something you're interested in buying.
+
+73
+00:03:00.005 --> 00:03:02.007
+Both techniques have their own strengths
+
+74
+00:03:02.007 --> 00:03:06.007
+and yet each one can give you incredibly useful insights.
